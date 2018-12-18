@@ -9,4 +9,4 @@ Use
 cargo crev fetch url https://github.com/dpc/crev-proofs
 ```
 
-to import them.
+to import and use them.
