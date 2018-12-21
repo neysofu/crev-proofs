@@ -248,3 +248,45 @@ review:
 pGfQi1fUP9i2jwmVrwXTROGxjwyUlCcekZk_hewbUmDWIYRYcajDv5Dnve0mku5qil-QMKt4LAHIMsZ5_6BBDA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T21:06:57.941594700-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: byteorder
+  version: 1.2.7
+  digest: tm4tSfypGXF8-ESvMqH9Pw76GxIDm1UPVFHWF6LUZq8
+review:
+  thoroughness: low
+  understanding: medium
+  rating: strong
+comment: "Good test coverage, good documentation. LGTM"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+vbGDOTqgwG0ghMVOcp3hTH1fNVxiQDTAM5WohnND3qrMhq2Bcm_u3bj9WeWq63FMUIOPzoO5EfpMPx4nYF6PAQ
+-----END CREV PACKAGE REVIEW-----
+
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T21:11:19.043903303-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smallvec
+  version: 0.6.7
+  digest: Fzeb-w65FQ6585uCTOw7h_oSVxIXmW01aXkZAGaYmG8
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: Quite a bit of unsafe. It seems to me this crate could use some fuzzing.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+1bcnCoHeeVFtnB6qe700YQ9DNhNEFIMM6MiBBVs8KgqRvYvSgnJzJvB5lFMcu8Dbol4tBQ_P3zyA7ufngzClDw
+-----END CREV PACKAGE REVIEW-----
+
