@@ -207,3 +207,44 @@ comment: "I failed to review the whole thing. I looked at `unsafe`s and when thr
 TkyHNRBdJpUdjUpMap44KeLOrPgLBrqGUEGvci4NDGaTvQCwtBspdCZaNU3H67wndPFaOwfCZjNS-6PAfhqNAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T20:55:01.370541058-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tempdir
+  version: 0.3.7
+  digest: HCBmm8gIxllQsbpNbOJnpW_nmJck53FC2H65raSV4CU
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: "Small, no unsafe, good documentation."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+GhCt7yBgfYHXcFbQB9nll92PBjrpnYjSSZkk0vjD4vMJeR_uKPQOcqCroVwxZI_aAv1lcKDfe1MAVjwFkRqdAQ
+-----END CREV PACKAGE REVIEW-----
+
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T21:02:36.256181729-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lazy_static
+  version: 1.2.0
+  digest: gAbTM9yZ_I3yo9pQdJa1FTi_GrjFOrlrEuYOgXXnNzk
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+pGfQi1fUP9i2jwmVrwXTROGxjwyUlCcekZk_hewbUmDWIYRYcajDv5Dnve0mku5qil-QMKt4LAHIMsZ5_6BBDA
+-----END CREV PACKAGE REVIEW-----
+
