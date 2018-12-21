@@ -165,3 +165,45 @@ comment: "Surpringly small, no unsafe, tests and all."
 0ZjK6iToqZo1cli-BqUOoj5kR3dfrmUz8K8L5VXNBZgu8Dci1pMsNTen4mwe6kkewMAgpkg3b48VDR8D8QbmCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T20:28:10.019382430-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: structopt-derive
+  version: 0.2.14
+  digest: H8mhoDElenx3NMk4GBVbfRWI8BX2ZXXbZQxyZ-41Vio
+review:
+  thoroughness: low
+  understanding: low
+  rating: strong
+comment: "No unsafe, documentation, fairly small. A lot of macro magic."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+32QoLHnhnzhYXHb9h1PVVgkJrRkGl6kUN7jN74N6AQg88N2bFT3LEi7VdpCoh5L32nALaR4UGNl7_M2VPgKiDQ
+-----END CREV PACKAGE REVIEW-----
+
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T20:45:54.982248458-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rand
+  version: 0.6.1
+  digest: "-HmN-lWe1NU5F5u4t1sP_RsYlj8MWgCjSH-3USiPqfA"
+review:
+  thoroughness: none
+  understanding: low
+  rating: strong
+comment: "I failed to review the whole thing. I looked at `unsafe`s and when through ~10 random files. LGTM, but considering how important this crate it, my understanding of it is insufficient."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+TkyHNRBdJpUdjUpMap44KeLOrPgLBrqGUEGvci4NDGaTvQCwtBspdCZaNU3H67wndPFaOwfCZjNS-6PAfhqNAQ
+-----END CREV PACKAGE REVIEW-----
+
