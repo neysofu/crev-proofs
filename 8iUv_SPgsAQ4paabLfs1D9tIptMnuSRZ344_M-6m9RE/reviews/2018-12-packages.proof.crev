@@ -332,3 +332,24 @@ comment: "I see no point in this crate existing (just use `rand`), and consideri
 OzKdB039-_h0zW6v5c8acurGt03wdypI3opeToqiQ2RvurdRZ80-qc0fObCiL0Fy4pesfxQp-lG03V_FSWCGCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-22T00:03:38.493541376-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sqlite
+  version: 0.24.0
+  digest: U_xnUNvAZjwR1sGgcRwLdPHO0J2RaAms50VOZcL1Kpk
+review:
+  thoroughness: none
+  understanding: low
+  rating: negative
+comment: "The owner of this crate https://crates.io/users/IvanUkhov has plenty of low-quality, suspicious crates, that at best are name-squating, I would advise against usting this one."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+23qcacm2ofiNTuLLV6OkBVFmSoUXt0L5Bz51PN_KlseK0Fu6Zd6yzCoa8BWjuNvdfNGOAE8usrptUdtjsNp0BA
+-----END CREV PACKAGE REVIEW-----
+
