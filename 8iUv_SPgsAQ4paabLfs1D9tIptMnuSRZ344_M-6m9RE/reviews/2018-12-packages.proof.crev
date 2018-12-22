@@ -290,3 +290,45 @@ comment: Quite a bit of unsafe. It seems to me this crate could use some fuzzing
 1bcnCoHeeVFtnB6qe700YQ9DNhNEFIMM6MiBBVs8KgqRvYvSgnJzJvB5lFMcu8Dbol4tBQ_P3zyA7ufngzClDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-21T23:28:57.211800263-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: temporary
+  version: 0.6.3
+  digest: F0icIXqLCy9VS7YdB6vfLyrPsCocp2NAa0NWtNbceEc
+review:
+  thoroughness: medium
+  understanding: high
+  rating: dangerous
+comment: "Reckless `unsafe`, buggy. https://github.com/stainless-steel/temporary/issues/1 . One of the reasons I've created cargo-crev in the first place."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+JdhJYIt4_o94w4vxKDCh3n7rSQ-A7Jhg9gHB_pt7z3OEVCgChmqD3kHx5BUb80QukitbpLGWCNQpBNAkH9E_Bw
+-----END CREV PACKAGE REVIEW-----
+
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-21T23:32:08.068653107-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: random
+  version: 0.12.2
+  digest: GPySMiyOWhCfeMmzRhUkoFNSls26QaQ7THXneb3106w
+review:
+  thoroughness: none
+  understanding: medium
+  rating: negative
+comment: "I see no point in this crate existing (just use `rand`), and considering poor quality of other crates of this author, I would advise not to use. https://github.com/stainless-steel/temporary/issues/1"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+OzKdB039-_h0zW6v5c8acurGt03wdypI3opeToqiQ2RvurdRZ80-qc0fObCiL0Fy4pesfxQp-lG03V_FSWCGCA
+-----END CREV PACKAGE REVIEW-----
+
