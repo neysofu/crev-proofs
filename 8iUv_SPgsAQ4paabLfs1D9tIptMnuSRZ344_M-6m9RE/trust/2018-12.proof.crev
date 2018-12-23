@@ -31,3 +31,20 @@ trust: low
 n4naE0hG_SpC6wwNVJP6yZiAnL_bcuqA7QUD0F8S6jaLVpXAfmcjRtE8cTeiLMWfNGQLOjvcurFIVZP7cNxcCw
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2018-12-22T17:39:44.902320907-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: m7mJnTzd51ZY37t5VTfSRHEp8OBTdvoAau5QKv8lzEI
+    url: "https://github.com/detegr/crev-proofs"
+trust: low
+comment: "Trust new user: Antti Keränen"
+-----BEGIN CREV TRUST SIGNATURE-----
+SWXOokPYBoFjG3jX9yju265O0e0Qny4dVOI44ZI1OnhKRb2X1KpYVsKd_3C2iKT8HFl3wNVWBdxNZutGOAz5Aw
+-----END CREV TRUST-----
+
