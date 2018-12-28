@@ -417,3 +417,23 @@ comment: LGTM
 c1WSdgCjUmBZh4xuMw7br1mKM2LhCt7zEE6-mU727ABJ0ebKybwcJaWEVhxNoxu7uJ26yjc-bTRsWkG0AuMDDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-27T18:38:54.880597736-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crates_io_api
+  version: 0.3.0
+  digest: XWZhBHowu-uzuWl_rXm5jDcCfoiLvZT87do09OtS4aQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+q6lFwVKS0Lv7bvMcsNFJP3w5AuRcUxxLsP8T700YGja-TxnwHk1wrP_ZBA3_c15RVftSA6tImecSwc-BB3MJAw
+-----END CREV PACKAGE REVIEW-----
+
