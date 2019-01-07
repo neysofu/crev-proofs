@@ -81,3 +81,20 @@ comment: "I have trouble judging reputation, but I'm adding for discoverability"
 HvmtZ8Ol8sDOJfbZCGumYJLtVaoFDHDWPhjHhgfOK_uhQkTO8AgyavQFIcc88QyoeUkg_JAKp1X8v8KQZ8EoDA
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-01-06T23:19:29.546791814-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: 9k2t7JJSV7dM7ZK1fsSKQZ1uWpBIeJ65bX9HzXJlQhc
+    url: "https://github.com/vi/crev-proofs"
+trust: low
+comment: For discoverability
+-----BEGIN CREV TRUST SIGNATURE-----
+df9pxMagCj6rCHqM5093DZG5AoVoM2449pnDA8V61zdYrsxZlD8qal2-K1CpZNPysAZ7Ju8wS2uGcMjH3ti0BA
+-----END CREV TRUST-----
+
