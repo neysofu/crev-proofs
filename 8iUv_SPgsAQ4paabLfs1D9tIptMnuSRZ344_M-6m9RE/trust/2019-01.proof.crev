@@ -115,3 +115,20 @@ comment: For discoverability
 nun0TlKLLNCHly4sOkaj5I6tbHkMTjUzy_ETIVppT0bOtVSS243blWtvPEnTu7aTiiAeFnNa6feub0TIojNtBw
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-01-06T23:28:35.928293832-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: m7mJnTzd51ZY37t5VTfSRHEp8OBTdvoAau5QKv8lzEI
+    url: "https://github.com/detegr/crev-proofs"
+trust: low
+comment: "Some useful reviews, and a very popular crate"
+-----BEGIN CREV TRUST SIGNATURE-----
+O-Mi3VYCcIuRUHBm8CCf-aH-0AtOeo5nRgjre_F4Tpt4e1rV4dAYjec_sKbhxRn_B-7bZmpv64Zd0pBGgT6kDA
+-----END CREV TRUST-----
+
