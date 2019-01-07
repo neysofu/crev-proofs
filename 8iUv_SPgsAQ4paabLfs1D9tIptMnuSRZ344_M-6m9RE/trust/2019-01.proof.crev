@@ -64,3 +64,20 @@ comment: Intern at @Blockstream
 lehbwdzEU8r7FR_4KmiGWmUIbyyc6mPqhS0Kel6quj1B4pVax3jgXWO1tHwvWFDqgSGqxSKYjt37OwDjuB1uBA
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-01-06T23:12:52.877569114-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: vhv0xoMc-rk-SurKoI_wBaQR8HkQ1hr4_tM9xbYvY5s
+    url: "https://github.com/mglax/crev-proofs"
+trust: none
+comment: "I have trouble judging reputation, but I'm adding for discoverability"
+-----BEGIN CREV TRUST SIGNATURE-----
+HvmtZ8Ol8sDOJfbZCGumYJLtVaoFDHDWPhjHhgfOK_uhQkTO8AgyavQFIcc88QyoeUkg_JAKp1X8v8KQZ8EoDA
+-----END CREV TRUST-----
+
