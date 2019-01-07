@@ -31,3 +31,19 @@ comment: Active and reputable Rust dev
 CuHKEdEnriFeRvIfVAvXRGgCwWGTnLVSbSX72qpL35uu9othQy_e5A9X4kveNjyb5EtqwbesLg1aWomVOJ8sCg
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-01-06T23:09:08.989638538-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: va3Nbc6uACpb32E7Dd8kE_REh1aQrAlJk8zh3G5XWHg
+    url: "https://github.com/otavio/crev-proofs"
+trust: low
+-----BEGIN CREV TRUST SIGNATURE-----
+jUM3FZcQQZfSMpcRjmsIgEL7JNaG8Cd5PPKPuY-FsufPTiixVLTnoMyqOW-PX8lD3BDQuJYS4zJ6owkIOEMuCg
+-----END CREV TRUST-----
+
