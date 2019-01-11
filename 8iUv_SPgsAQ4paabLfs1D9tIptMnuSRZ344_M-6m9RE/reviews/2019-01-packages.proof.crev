@@ -104,3 +104,24 @@ comment: "Not really actively maintained, and pieces of functionality missing. I
 B9ehQfd2uW9e0ou0Q9Xi6Nr8HGaRQf_kSyDQo2XRTcHXr6bcTQpnNS72h3N5d2iZt8xVr7gKZcrTtr7FRS6ODA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-10T17:01:42.707981765-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: insideout
+  version: 0.2.0
+  revision: 0c32def7bd674dbb21cb0234eecb04928d9ed031
+  digest: TG6kjJFCtY9cgXNrxQ5598Oj8dpCI0zNxyTMs1Km-Us
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: "Small, safe utility crate."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+K-8Xohdy5YKUaZOXyf1sX8d5pT4vmeZ_sbeKg3gM_WPRI6K1hhU0KddUgxYaxACd5XpD9TyKuJBSm_wB0JaTCg
+-----END CREV PACKAGE REVIEW-----
