@@ -1,0 +1,20 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-11T10:43:20.993868409-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ident_case
+  version: 1.0.0
+  digest: EPzaBbxIwTO8Xs8eLJWAYikE6HwBRNGywULWv6MiHJI
+review:
+  thoroughness: low
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+iisM4iEGiFOzwEuhmq7Dii-gJqXmUpf6BDXNQ-Jcr-wFaMWDTaNZm1nNNbaHhY5Q3f4r06ytpX94JuJd_rSXDA
+-----END CREV PACKAGE REVIEW-----
+
