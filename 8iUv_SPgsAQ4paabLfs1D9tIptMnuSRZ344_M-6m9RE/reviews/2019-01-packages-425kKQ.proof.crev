@@ -38,3 +38,24 @@ review:
 Qw6Sw08Q_OUhffAlUXzuiiXp2TZXuhC15rpIJpoPiylPOdch_VolVBvwCSoeYxtUhBuAfZ3KfccoLOqj8sDoAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-12T22:52:11.891332649-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rustc-workspace-hack
+  version: 1.0.0
+  digest: EHBQcBPv3orLPT5i0siFhpMcBBOZJvIRL_j5VsBoVwQ
+review:
+  thoroughness: high
+  understanding: low
+  rating: positive
+comment: "I am confused why this crate exists, but it looks harmless."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+7wMRFuLY_zPv9Fmiq3Vkaz7oVCZr2A9NCBgvkzubRcSKv0XdQPnLuKwycfS8_clzIP5rfqzs2xeXKsvNLtOuDQ
+-----END CREV PACKAGE REVIEW-----
+
