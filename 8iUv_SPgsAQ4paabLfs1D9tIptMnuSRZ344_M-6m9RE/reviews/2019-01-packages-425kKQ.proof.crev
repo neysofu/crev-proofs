@@ -119,3 +119,24 @@ review:
 kfLYud0yukFd6WtaXEgH9E8UmVeSCN-CGfb5llYHTBj4B1NX4tBdoSTpc3fLcizO_CNKidGUn414GSIZC7m1Cg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-13T00:14:02.520711392-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: zeroize
+  version: 0.5.2
+  revision: ff5b9898ef2ddcafc114b7d9dd2feee1a781755a
+  digest: lDO7TswC-n2H-26XyKbdb-UWZeWWW6mzKO2HG-Tg5kY
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+4dgQ8aB3wGQTttIr6SFvFpgMKlfvUiAOIE2_XpWxhxJhvcTbfdKyvfO747ouLVqfC8_EWnvqiWbSZM9MLVurBg
+-----END CREV PACKAGE REVIEW-----
+
