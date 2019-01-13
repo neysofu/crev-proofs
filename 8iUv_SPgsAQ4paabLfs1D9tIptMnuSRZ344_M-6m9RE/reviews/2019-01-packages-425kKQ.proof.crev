@@ -99,3 +99,23 @@ review:
 QxktW_Xox_IhDSjeaxJImVqz1S48W_4n7ijR7vA2pqoT_Feg4KslHSlQLeDPSjVNSK__F4CQQUxOuVVcZTr4CQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-12T23:02:46.621747802-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rprompt
+  version: 1.0.3
+  digest: q1Ajv-CGmXzGl7uxka2f4DYNIBcfIesKPvs-6IVbGkg
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+kfLYud0yukFd6WtaXEgH9E8UmVeSCN-CGfb5llYHTBj4B1NX4tBdoSTpc3fLcizO_CNKidGUn414GSIZC7m1Cg
+-----END CREV PACKAGE REVIEW-----
+
