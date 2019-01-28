@@ -140,3 +140,24 @@ review:
 4dgQ8aB3wGQTttIr6SFvFpgMKlfvUiAOIE2_XpWxhxJhvcTbfdKyvfO747ouLVqfC8_EWnvqiWbSZM9MLVurBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-27T21:13:23.669095683-08:00"
+from:
+  id-type: crev
+  id: 8iUv_SPgsAQ4paabLfs1D9tIptMnuSRZ344_M-6m9RE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: miniz-sys
+  version: 0.1.11
+  digest: 2JQEZZTqK5eMbgJ8RnBH1E576alx916esb98xk3W5pM
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: "It's basically a long C library. I've skimmed through it, and there's nothing out of ordinary, but good luck reviewing it."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+UWdfiL_TPs0OYKLsby1cXv6p3RGWwtqVa790QbNtoj0EqT6iuaN2yCO5bm1j-4D4cXWXNaFqJZkkFdRvTFcpDg
+-----END CREV PACKAGE REVIEW-----
+
