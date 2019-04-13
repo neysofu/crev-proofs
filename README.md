@@ -1,11 +1,8 @@
-# crev-proofs
+<!-- CREV_README_MARKER_V0 - Please don't remove this first line, or `crev` might overwrite this file.  -->
 
-My Crev Proofs. I use and review Rust crates. 
+# Proof Repository
 
-See [`cargo crev`](https://github.com/dpc/crev/tree/master/cargo-crev).
+This git repository is used a [Crev Proof
+Repository](https://github.com/dpc/crev/wiki/Proof-Repository).
 
-To import and use my proofs call:
-
-```
-cargo crev fetch url https://github.com/dpc/crev-proofs
-```
+<!-- Feel free to customize this file below this line -->
