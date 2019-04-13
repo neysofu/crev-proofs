@@ -374,3 +374,24 @@ comment: "LGTM. I feel like this crate could use more in-depth review since it d
 1h0zpfhAsJ3vH2IUkIvxxp11YJSyEJ5OkOG8cWCTfOVzUosjhlagbyOh77E5FXBc35G46Og8P97zDNIkpn8dBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-26T23:57:10.649281071-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: common_failures
+  version: 0.1.1
+  digest: iPrJvUpdsQLiYfo21Cgp0s55r73K6EO-KagO6fWEOxk
+review:
+  thoroughness: low
+  understanding: high
+  rating: strong
+comment: LGTM
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+65LRFDROZXCPeyFnd8VQMpWZYrh42o4z_95SO4vtG0N7pahLRKBzwv39pHH2v2AO6Jpi4sTPfD-gpmWdZQoBCQ
+-----END CREV PACKAGE REVIEW-----
+
