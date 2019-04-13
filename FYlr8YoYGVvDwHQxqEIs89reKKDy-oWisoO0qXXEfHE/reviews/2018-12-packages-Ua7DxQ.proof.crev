@@ -248,3 +248,24 @@ review:
 oqFstiDPFUZsaIO5_KzxeovP5phvfj0CyNMlo-NBHFN7GxIrCb1h-XIhBOvCBVavOCJoLY2QBSI7E2qlXoZ2AQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T21:06:57.941594700-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: byteorder
+  version: 1.2.7
+  digest: tm4tSfypGXF8-ESvMqH9Pw76GxIDm1UPVFHWF6LUZq8
+review:
+  thoroughness: low
+  understanding: medium
+  rating: strong
+comment: "Good test coverage, good documentation. LGTM"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+q5sIBIC7fOxoCAWKl4wYE9XGQdVkWkGseGCgWihLmrLQJ8mYkZT67TtmMhCTRo1GdLzUsTyw-lrJEpq2kf4NAQ
+-----END CREV PACKAGE REVIEW-----
+
