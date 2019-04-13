@@ -353,3 +353,24 @@ comment: "The owner of this crate https://crates.io/users/IvanUkhov has plenty o
 aqco9OBDaZoQtiPK8ocpVoWumKB7w68bnmexbqFM1Yi0v6X27euBgqWPDvHsliOtwKyntSrL67hkx7An3WqUCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-26T23:26:27.078926318-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tempfile
+  version: 3.0.4
+  digest: PpEPY4-sG9RKDxAplgTiChbk6FcX8u5GEqe2CCXh7jA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: "LGTM. I feel like this crate could use more in-depth review since it does have some `unsafe` blocks (especially for Windows)."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+1h0zpfhAsJ3vH2IUkIvxxp11YJSyEJ5OkOG8cWCTfOVzUosjhlagbyOh77E5FXBc35G46Og8P97zDNIkpn8dBw
+-----END CREV PACKAGE REVIEW-----
+
