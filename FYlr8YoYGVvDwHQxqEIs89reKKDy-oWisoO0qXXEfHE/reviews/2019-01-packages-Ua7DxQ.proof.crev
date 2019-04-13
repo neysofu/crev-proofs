@@ -161,3 +161,23 @@ comment: "It's basically a long C library. I've skimmed through it, and there's 
 r3ApL9qJu8uFSJZFDzbAu4L4TOaoMgGGWd7PUdg3FKGBrkzxo58KQope0BFSxNghrJRfrYn6uLZqOuA5S60ECg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-27T21:15:46.392312816-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: constant_time_eq
+  version: 0.1.3
+  digest: xmV4d9xBYpIPzUtN18LNNY84ELp8NAdkvbkAX7Y7CIE
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+aDv97HPqi3XAnhJicVr3phyWAmImqBjl-BIklJ-ATpecLb4kMP-bJOF_Y3GgaB6BnfLEojWyCeJbgnMOj4WCBA
+-----END CREV PACKAGE REVIEW-----
+
