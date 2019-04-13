@@ -201,3 +201,24 @@ review:
 RwrWS0KZDrJib0k93NGjtce8pXj8IXdkkmwsk0TiFLpFpOpDUqDg0P2KEGZWmqtkUK-47DjuZEHT2w_SkGHTCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-11T14:40:35.125160026-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: signal
+  version: 0.6.0
+  digest: bhNmHyX965vysFEzPyioRaOAtpEb70WxUy0vW5y2Ajs
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: "Small, but full of low-level `unsafe` signal handling. LGTM, but it low intensity review."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+kjh0lSe2EkzOYZoWD62PqLsHHu0tsKsYqWSoruPujw__KvhpcgY0djz814kLFQKw5LfidaG80w56kqLWQq9HAQ
+-----END CREV PACKAGE REVIEW-----
+
