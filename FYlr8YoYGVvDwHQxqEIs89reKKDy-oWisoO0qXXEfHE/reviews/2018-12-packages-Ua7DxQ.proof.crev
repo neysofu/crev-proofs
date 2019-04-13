@@ -207,3 +207,24 @@ comment: "I failed to review the whole thing. I looked at `unsafe`s and when thr
 hfjFVqzqiVb0WCaCjiVSQjWk97Mbb3jPZdiPybfPYG3xjg8PlraH7rsKK8BhmQituEuNvpnMpxGo2DVpX8xsDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T20:55:01.370541058-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tempdir
+  version: 0.3.7
+  digest: HCBmm8gIxllQsbpNbOJnpW_nmJck53FC2H65raSV4CU
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: "Small, no unsafe, good documentation."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+a8olGRiRBf65b447I8fSbgAJBgqMpNtAp8i1RO0uD9aaDinOQctscCsEUMOkLUrJb1ioxNJoi51msj29NrfMBw
+-----END CREV PACKAGE REVIEW-----
+
