@@ -269,3 +269,24 @@ comment: "Good test coverage, good documentation. LGTM"
 q5sIBIC7fOxoCAWKl4wYE9XGQdVkWkGseGCgWihLmrLQJ8mYkZT67TtmMhCTRo1GdLzUsTyw-lrJEpq2kf4NAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T21:11:19.043903303-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smallvec
+  version: 0.6.7
+  digest: Fzeb-w65FQ6585uCTOw7h_oSVxIXmW01aXkZAGaYmG8
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: Quite a bit of unsafe. It seems to me this crate could use some fuzzing.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+qIdp62VZ0AGEB8LxaI5qwIH_ZqW4dWHKjfLSk5P1c_UKvWBtcWsirX8irARgxn9CzdyT2m1xb6ZAg_C7nslfCg
+-----END CREV PACKAGE REVIEW-----
+
