@@ -1,0 +1,20 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-11T10:47:52.602272760-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: half
+  version: 1.3.0
+  digest: Qx470uuwpvzScJMDb9upXCHxTkV2X3nJ7kzeN0YBcJ8
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+C3WiMvwcA1y2Y2AqGXCQQrp7m2wotgS_IYf6mBh8CFvN_Oh--fTwGGzr0CBSfuc8bE0bJvFoZzcIut2IfTX6Aw
+-----END CREV PACKAGE REVIEW-----
+
