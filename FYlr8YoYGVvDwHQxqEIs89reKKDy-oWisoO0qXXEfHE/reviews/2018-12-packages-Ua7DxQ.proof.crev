@@ -311,3 +311,24 @@ comment: "Reckless `unsafe`, buggy. https://github.com/stainless-steel/temporary
 P7u0ttFUBFpiVczwp5_gfXi5kKvY5uq8Or50ZlcOXF7Jylffk73nvBLXrSFHhwPOFQYglSSc1H8xvVc2qm31DA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-21T23:32:08.068653107-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: random
+  version: 0.12.2
+  digest: GPySMiyOWhCfeMmzRhUkoFNSls26QaQ7THXneb3106w
+review:
+  thoroughness: none
+  understanding: medium
+  rating: negative
+comment: "I see no point in this crate existing (just use `rand`), and considering poor quality of other crates of this author, I would advise not to use. https://github.com/stainless-steel/temporary/issues/1"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+FgqRlrpJBER3D3hWsovqSKMrYIoyO7Wfl5uW4RSfInYciBV96K1wf9WaMZ3OlmTi6xFMgG6qvOswD9xYa1QlDw
+-----END CREV PACKAGE REVIEW-----
+
