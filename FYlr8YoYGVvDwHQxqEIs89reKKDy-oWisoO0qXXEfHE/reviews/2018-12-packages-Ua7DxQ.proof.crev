@@ -123,3 +123,24 @@ comment: "Some `unsafe`, but LGTM"
 FfQIfb1rdNrl0YCtbd9laM7xw7E3mePJ1b4wwq2EoEOEh4EW_5ewY8qTtN_ysLv0cweXcrtFmapTfqUiGq0WCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2018-12-20T20:16:36.075909096-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hex
+  version: 0.3.2
+  digest: 6FtxZesHD7pnSlbpp--CF_MPAnJATZI4ZR-Vdwb6Fes
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: "Small, no unsafe, tests, good documentation."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+UZyK1rmw0ao21-75EsgzCR0vcs_7IvgZXHxpy8X7MpszhwF-Ck1gE7QgdOhSWXrVDRNKZiaDs0sOxDOmVobYCw
+-----END CREV PACKAGE REVIEW-----
+
