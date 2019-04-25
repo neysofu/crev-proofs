@@ -142,3 +142,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/crossbeam/RU
 gn20nE7DbouTpz6u6AAW4bCNiaw-6u1KJSiqqYLUIH3rCeL26-BpjELmFzYJI-kvqA-v8rKsAnMIshfJVqDEBQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T00:32:02.013632564-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hyper
+  version: 0.9.4
+  digest: lk0EmEsuLQ1AVvNWQkTehJskIOlAW4XULk7pHOMgzfQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/hyper/RUSTSEC-2016-0002.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+pcUo5_qGqgWl1BdYu1JBCp_xdUw4UGiyCSg7HD9DcB_2N81KRwoBKz78JJXiywj8ivedI_heijtIx08B4jxsCQ
+-----END CREV PACKAGE REVIEW-----
+
