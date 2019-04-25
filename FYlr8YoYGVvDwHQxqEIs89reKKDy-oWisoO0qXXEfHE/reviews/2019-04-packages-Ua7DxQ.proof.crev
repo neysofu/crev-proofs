@@ -94,3 +94,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/cookie/RUSTS
 Uny_-95DaPXlIBf_YlKucJXdxEtleKk6DmgHDR3H19d9zv3N02lnGqFWBK61Lqn5U8mwEYWmrtXLgQa3Le4WBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T00:30:08.173290321-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cookie
+  version: 0.7.6
+  digest: i1koM_KVobW8tgKFn0ieK9Pg7PcPdS98MzyTRkq5WGg
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: minor
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/cookie/RUSTSEC-2017-0005.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+N-Z2U3PA8zibdwCr94ncYTjNJZ9LJdLIlFnevpSIoVHsXzuDIa-QxII0gRkCfoRNxdM2SjirbqtwjL-0pdKtBA
+-----END CREV PACKAGE REVIEW-----
+
