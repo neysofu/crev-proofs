@@ -1,0 +1,24 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T00:18:43.087177906-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: base64
+  version: 0.5.2
+  digest: wMN3VR6EWaI5i7BCYScLsbC1irWcLsEc3TAouoaGoK8
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/base64/RUSTSEC-2017-0004.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+CIqt2JxhwT7kjBEm-NgAP-_0Rt00Eb0CsAoyfVjlrr3izFx0gyBsMSH9esIOup3Wu33Lo60qDjwtDxEm6GGDCQ
+-----END CREV PACKAGE REVIEW-----
+
