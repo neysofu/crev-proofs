@@ -118,3 +118,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/cookie/RUSTS
 N-Z2U3PA8zibdwCr94ncYTjNJZ9LJdLIlFnevpSIoVHsXzuDIa-QxII0gRkCfoRNxdM2SjirbqtwjL-0pdKtBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T00:30:36.422070505-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crossbeam
+  version: 0.4.1
+  digest: PoIb6iLQ8hIw9aMmnLBNQjtabDf7zZwTOX6QYshI4YY
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: minor
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/crossbeam/RUSTSEC-2018-0009.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+gn20nE7DbouTpz6u6AAW4bCNiaw-6u1KJSiqqYLUIH3rCeL26-BpjELmFzYJI-kvqA-v8rKsAnMIshfJVqDEBQ
+-----END CREV PACKAGE REVIEW-----
+
