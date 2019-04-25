@@ -238,3 +238,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/openssl/RUST
 Mo6lHijXHkVyPL4gjCsE6NyZZtbqD7AGOYCOoa2geot0IRSsoKLPKkAFAEUnwyjl-T87Gt_OgasNZRmgPbTjDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T00:37:57.642573196-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: openssl
+  version: 0.10.9
+  digest: wMJt-ftZ2YSdhePir2l6WQAFDgRU0tTXcrh2WKPjkC8
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: minor
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/openssl/RUSTSEC-2018-0010.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+JcVeJDiS_YKsCwHv5BSZcJ9uR3h4eJL2mlB7hvn4dR4bbc6ps7c7t__14j_jUd3f1k8ZG5nafRwH1c2niVUHBw
+-----END CREV PACKAGE REVIEW-----
+
