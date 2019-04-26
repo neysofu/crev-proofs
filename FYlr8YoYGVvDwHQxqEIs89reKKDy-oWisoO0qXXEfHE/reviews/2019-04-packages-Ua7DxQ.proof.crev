@@ -386,3 +386,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/slice-deque/
 bEJ494AuiU9rUJDLIx3-xnIRZU6KaFU4xZMojRQzwLgbW9mT700bwvrHv8i4aRXNDkdkAKV-94wso5aMgYpyCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:22:12.503600205-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smallvec
+  version: 0.6.3
+  digest: vqaG4Gr2kItCk0xLPOrd0se8MMZ_Z2BTdyf5aDtA7_0
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: minor
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/smallvec/RUSTSEC-2018-0003.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Rkd3BR4O-yarCTOrA6eRutoHcmhodwFgY7FrV3LZkVusLkAj008nv0R7pqcyxpA98HC2uFlmo3L5PMYBTBFQAQ
+-----END CREV PACKAGE REVIEW-----
+
