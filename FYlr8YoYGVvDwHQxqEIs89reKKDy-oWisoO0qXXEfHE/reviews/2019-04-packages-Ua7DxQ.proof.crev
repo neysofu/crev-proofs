@@ -312,3 +312,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/safe-transmu
 2gzBmv3gKNhAJU6g7zx1SYGFOKeAzWjlJpneCqwWdl8Vl7vItFVGcZJFLma5TdPdOhTVn_zNPhj9MDJT90mACw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:18:03.393057708-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: security-framework
+  version: 0.1.12
+  digest: xLYaP9ikSymrQvSiRNKQWzeHZbxCZk2Zkynq9v7VP2U
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/security-framework/RUSTSEC-2017-0003.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+PVlDqcVGbguKOgQzpyDt_IRlpLBvNa94ItCyReUEi0nQV0KAhCT1URaq3ZfFdW9oR-Mm_z5k7x3uxcDAMUjBBA
+-----END CREV PACKAGE REVIEW-----
+
