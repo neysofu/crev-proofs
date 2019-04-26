@@ -506,3 +506,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/sodiumoxide/
 wK53hEz6lriYeBUOKAWikNbQQUoA2jBi1s3nxQZTSYZrWQlYIRBZqRDHE3Onic_ZQwQj_QU5xYhBIsaszBy6Cg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:25:01.999246240-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tar
+  version: 0.4.16
+  digest: eS43REyBrBFXWbYjA_K42dkBp9VRGGhp1c8N1SWD8Mk
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/tar/RUSTSEC-2018-0002.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+zVNNVItoRgHng2BnL-8k7VMrxGT3qyLloLK-y_TDAf0RWm2FNQQgTtT1ziQ0xjVqeFltwZO62neADSjQ6ILvBw
+-----END CREV PACKAGE REVIEW-----
+
