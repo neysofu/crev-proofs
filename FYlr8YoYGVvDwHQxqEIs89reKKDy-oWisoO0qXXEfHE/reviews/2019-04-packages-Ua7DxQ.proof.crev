@@ -434,3 +434,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/smallvec/RUS
 UZ1CdqL-X3Bmqtj0uLXJegkYOrRb-m6Iq-j8D7Qf2VpcR17q7QFjDKADz1wh-56If3M5ICN0tgVcvx2W3j0pBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:22:52.292812939-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smallvec
+  version: 0.4.5
+  digest: aprJ0xKmynCprs-At1_x2ZgsKOqBOCs132uqAdHHGaI
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: minor
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/smallvec/RUSTSEC-2018-0003.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+GEev593xHcDFdT4G6lY7y4OPxhWkKibmCvWGRf8R1R3mUCi-ZeyZpFKina1jd9ITw0khT6Ph_W_2cwGC5huXDw
+-----END CREV PACKAGE REVIEW-----
+
