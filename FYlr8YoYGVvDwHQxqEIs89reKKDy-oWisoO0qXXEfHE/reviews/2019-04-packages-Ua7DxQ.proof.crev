@@ -530,3 +530,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/tar/RUSTSEC-
 zVNNVItoRgHng2BnL-8k7VMrxGT3qyLloLK-y_TDAf0RWm2FNQQgTtT1ziQ0xjVqeFltwZO62neADSjQ6ILvBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:31:44.975376486-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: trust-dns-proto
+  version: 0.4.3
+  digest: y7EdhF4HIAAp6e8wgUgGhhxNYBORorKK1seQMXSxU6c
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/trust-dns-proto/RUSTSEC-2018-0007.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+jeLMI8TCK77o-zbjuJ-eUCRchzrQeQZgulf86H5iwE-H8UGxsV3vYiox3mWK80L7Toyy2olK03p33Y9U47LYCA
+-----END CREV PACKAGE REVIEW-----
+
