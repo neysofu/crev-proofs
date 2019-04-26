@@ -361,3 +361,28 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/serde_yaml/R
 -Dgy7VMYxLxxum9t7JZ9U8uHCY6iSl8K-n-Dw4TRjrP2AoxZ2F2VDdCoz-x60at3tLOZ4El3k06EGPvxLSpuCQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:20:54.791455770-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: slice-deque
+  version: 0.1.16
+  revision: d38fe241c8b72060ac442e5aed1aeddcd3b28144
+  digest: x9Iswtcq7gIhpOLghYv_Rv2Nw9GyeGWNjx1nyjLUrHQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/slice-deque/RUSTSEC-2018-0008.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+bEJ494AuiU9rUJDLIx3-xnIRZU6KaFU4xZMojRQzwLgbW9mT700bwvrHv8i4aRXNDkdkAKV-94wso5aMgYpyCA
+-----END CREV PACKAGE REVIEW-----
+
