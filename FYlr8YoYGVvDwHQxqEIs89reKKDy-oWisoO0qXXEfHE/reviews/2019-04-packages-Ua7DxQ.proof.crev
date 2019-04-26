@@ -578,3 +578,27 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/trust-dns-pr
 AgGnmRq5FDV6rP5NrW7wklG4k134TJ1AChwo0hQfDRuH7EzcJim6MZtXYFcUFRYmFCFBstTbsqvWOll59FzaDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:35:08.807429896-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: untrusted
+  version: 0.6.2
+  digest: k8O2fqgUYZNgk1tKHzhedPwzoSTmjfDb5AStfbcLBnQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/untrusted/RUSTSEC-2018-0001.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+dthXZYM9EbsvQKEQMV2meXbEJFyIRg7q8wUCyLcZwwdaWtD7qEwK3PG2s6pkGg_5aJQCxUglLqrazizcpFb0Cw
+-----END CREV PACKAGE REVIEW-----
+
