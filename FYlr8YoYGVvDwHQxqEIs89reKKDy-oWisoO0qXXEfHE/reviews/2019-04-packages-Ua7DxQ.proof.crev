@@ -287,3 +287,28 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/orion/RUSTSE
 NC7ZlZQw6sTYi34U1XOa2-rb1qR-Y7ipvOuAoX8s9EtUuMBYFCSSFyIZDsxS1MKQMezOfVE_nMZpeMSKA2KbCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-25T22:16:31.473438024-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: safe-transmute
+  version: 0.10.1
+  revision: 26ec6b7573c4dfec37109188095674c16f709d73
+  digest: SkrmHgbEo5cSNaDOkisJqmQivRlzpjVGWE7mbnzr_9c
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/master/crates/safe-transmute/RUSTSEC-2018-0013.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+2gzBmv3gKNhAJU6g7zx1SYGFOKeAzWjlJpneCqwWdl8Vl7vItFVGcZJFLma5TdPdOhTVn_zNPhj9MDJT90mACw
+-----END CREV PACKAGE REVIEW-----
+
