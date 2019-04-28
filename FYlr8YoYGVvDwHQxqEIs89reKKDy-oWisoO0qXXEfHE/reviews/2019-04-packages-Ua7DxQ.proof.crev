@@ -627,3 +627,28 @@ comment: "https://github.com/RustSec/advisory-db/blob/master/crates/yaml-rust/RU
 xsmuSLVMjLTOm-9KXWgFoKp-nd_nI1KN4-XioHR_tnwk0ysv1dNydffE24kdMLtzrDpq9BzyKYMFc1g2jE7MCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-27T17:16:02.522603130-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: isatty
+  version: 0.2.0
+  revision: 85d1275115617e93d2ec7e78e5cc503b82748bae
+  digest: w63zO_Eo5HRL5H1Pm7O4wF1HNIJM9AUzKhfKQSDZ-0A
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+advisory:
+  affected: all
+  critical: false
+comment: "Deprecated. Use `atty`"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+EzfN3Sqs_oxqGmTpUCHh0DQ42dsYD73PUyZ_uPMLN5MbwoJRPu0Du1kqxb3Z4sRlfzrgy7z2F-Rk1OKOTOd4Cw
+-----END CREV PACKAGE REVIEW-----
+
