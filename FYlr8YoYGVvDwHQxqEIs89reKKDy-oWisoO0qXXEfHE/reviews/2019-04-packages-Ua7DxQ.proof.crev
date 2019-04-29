@@ -652,3 +652,28 @@ comment: "Deprecated. Use `atty`"
 EzfN3Sqs_oxqGmTpUCHh0DQ42dsYD73PUyZ_uPMLN5MbwoJRPu0Du1kqxb3Z4sRlfzrgy7z2F-Rk1OKOTOd4Cw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-04-28T19:18:21.783609495-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ammonia
+  version: 2.1.0
+  revision: bb7d7be9b28f4c955555b958be12b887350347b0
+  digest: b6zco479vX03ehRjxv7yBre3fM6afypAp0iXnofqXHQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: all
+  critical: false
+comment: "https://github.com/RustSec/advisory-db/pull/93"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+HmFbDXF1kNC4Ad-WkWtQ5orb5dpJAjmNp-YKiGowLdz8R7SihrcINQRgv0uBY-AKWIQZ8Z9Fw3crWZXtZba1BA
+-----END CREV PACKAGE REVIEW-----
+
