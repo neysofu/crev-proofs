@@ -48,3 +48,28 @@ comment: "https://github.com/RustSec/advisory-db/blob/58a4d5b2a2026d693b4e7095a5
 K2nqXg0VK7SpjevE074IkKimQLXjXYllM163M9fYRZvQtSTHA8G-c7ehAfxHmLUzCuADGg2oygCKIyRvPsvnAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-05-16T14:54:57.596023952-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: libp2p-core
+  version: 0.7.1
+  revision: 86a2bbbe50c742fbe3f5bf3a171d60dfb8fdb432
+  digest: "-uB8HItkE5rTrDR6kaTznJ0qdwmJi40E5KMTb0NXYYY"
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: false
+comment: "https://github.com/RustSec/advisory-db/blob/58a4d5b2a2026d693b4e7095a569e9db3514293d/crates/libp2p-core/RUSTSEC-2019-0004.toml"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+zxBtBUswPmNP_BzTTVgQemmF3TRuaf8ygqjkv8x7wJ9Zt3sVvx3-c1tDd8Dl0Kmnf9Qt7gEWh2dfoHghmg96BQ
+-----END CREV PACKAGE REVIEW-----
+
