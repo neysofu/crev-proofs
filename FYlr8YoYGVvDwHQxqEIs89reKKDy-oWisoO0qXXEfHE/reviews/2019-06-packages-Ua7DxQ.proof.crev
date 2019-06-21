@@ -26,3 +26,25 @@ comment: "Good test coverage, good documentation. LGTM"
 BptAv_o_uuCUqELUezCkY5vdrGJlT5E1Yfh8cVMCM7-0vKZsdTyz3X3E7whxTDNvkqx-P1J6rb2S9VmLMLB-DA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-06-21T13:58:55.104277468-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ncurses
+  version: 5.99.0
+  revision: 2a5dc99ef40c8f836b60b8a5ae9814410fc3bbcb
+  digest: Kh2ij5qBYN-QnZakseO4m6yhJFXxvC83hIZhZDOw8pw
+review:
+  thoroughness: none
+  understanding: none
+  rating: dangerous
+comment: "https://github.com/RustSec/advisory-db/issues/106"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+6FQBAkuow2RXEvY2hx3AFYHzEoRIaIU0shdva1TL9qYTEcfT8sFyOj_B-DkpSagTXsVcqlZBES39ZW7KYOUVDg
+-----END CREV PACKAGE REVIEW-----
+
