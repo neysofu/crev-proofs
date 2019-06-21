@@ -70,3 +70,28 @@ comment: "https://github.com/RustSec/advisory-db/issues/106"
 Yg6C4lSIGh4mkVzUHHbyDBR_lKWSTLlDsf8qdPCjb3VW2h704tgD1DuMHx6i9BKlVmkwtSbCs-b_7vb8yIbsCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-06-21T16:35:35.000831249-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: asn1_der
+  version: 0.6.2
+  revision: 07ac15e3f7f01679be177e983d4cde235a100733
+  digest: F252Nour4x3eiRcDy6bMX149ysQV2cek8PF3_CgPCms
+review:
+  thoroughness: none
+  understanding: none
+  rating: neutral
+advisory:
+  affected: major
+  critical: true
+comment: "https://github.com/RustSec/advisory-db/blob/2bc98060424f96486c240a22a946e96b48be9467/crates/asn1_der/RUSTSEC-0000-0000.toml ; https://github.com/KizzyCode/asn1_der/issues/1"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+A6htoIDtCBKfrrR4Kx33y-QznLuc1zOdlhGKhMcXYvVcXRrlCCYz8xrslzTTP2itfiuCnKHOh9Zliz_XkZTaAg
+-----END CREV PACKAGE REVIEW-----
+
