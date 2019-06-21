@@ -48,3 +48,25 @@ comment: "https://github.com/RustSec/advisory-db/issues/106"
 6FQBAkuow2RXEvY2hx3AFYHzEoRIaIU0shdva1TL9qYTEcfT8sFyOj_B-DkpSagTXsVcqlZBES39ZW7KYOUVDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-06-21T14:04:57.030198198-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: pancurses
+  version: 0.16.1
+  revision: 5c7377351b261b2b63401435328742c331361dd0
+  digest: dcYKSkWJv1ynaCmlFk1XRLjkBi85Ng2jc9jPEKwgPto
+review:
+  thoroughness: none
+  understanding: none
+  rating: dangerous
+comment: "https://github.com/RustSec/advisory-db/issues/106"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Yg6C4lSIGh4mkVzUHHbyDBR_lKWSTLlDsf8qdPCjb3VW2h704tgD1DuMHx6i9BKlVmkwtSbCs-b_7vb8yIbsCw
+-----END CREV PACKAGE REVIEW-----
+
