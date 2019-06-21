@@ -54,3 +54,24 @@ comment: "Surpringly small, no unsafe, lots of tests and all."
 kTZZ_BPQHqiOg4iX_4MNJ4nQFliXROZbtVzn-uHZptMaz6A50YpG3brqwhrOS9ni2ch-zkYpRY1PsKB4JOt3CA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-06-21T16:55:55.334921138-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fuchsia-cprng
+  version: 0.1.1
+  digest: 02IRF37m5mD4qMCYLbB5rdiviWLLdkB2x86HNEXtmuw
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: I have not reviewed the actual C code this calls.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+kXeM3HV3LdHmiGzP--F57lOrU223HW9dmG5dMN_AAiF36sMXSElRzPNAw-W0R0dnsCLQR6_lrHD065avPw_CAg
+-----END CREV PACKAGE REVIEW-----
+
