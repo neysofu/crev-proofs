@@ -1,0 +1,28 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-06-21T16:22:34.957124262-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: structopt-derive
+  version: 0.2.16
+  revision: 18c60e1658b9a5aa61b5492dca6036974b0e302a
+  digest: pgiuv8DEROnCfN2iG9_C3jwIX4D0c33QFfNr-E70nF0
+package-diff-base:
+  source: "https://crates.io"
+  name: structopt-derive
+  version: 0.2.14
+  revision: 35458321f3fcf8383964f38534ad92606e47b4f7
+  digest: H8mhoDElenx3NMk4GBVbfRWI8BX2ZXXbZQxyZ-41Vio
+review:
+  thoroughness: low
+  understanding: low
+  rating: strong
+comment: "No unsafe, documentation, fairly small. A lot of macro magic."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+QMHD3XSAd--2lFRlt46B4wbdC8kE3hc0QKxWi1NFXPovbeyafO_rhG3siCOk06xR8Qk60CLvkHJaETx_7iTHCA
+-----END CREV PACKAGE REVIEW-----
+
