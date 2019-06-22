@@ -75,3 +75,30 @@ comment: I have not reviewed the actual C code this calls.
 kXeM3HV3LdHmiGzP--F57lOrU223HW9dmG5dMN_AAiF36sMXSElRzPNAw-W0R0dnsCLQR6_lrHD065avPw_CAg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-06-21T17:01:44.646284236-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: either
+  version: 1.5.2
+  revision: 6e0c08a5d00915dd10fc69cbf9cba8571f7d1eb3
+  digest: m4PvlE5yEtC3lrkR5YYPK5W7YWrwcMELDvIi52b2m-g
+package-diff-base:
+  source: "https://crates.io"
+  name: either
+  version: 1.5.0
+  digest: uBbgCVotv_8z4SEOjremFmvMG4JPhUROC19OLjPPLNE
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: "Simple `Either` type."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+yS6Y5D92AiASqSuE0_lvfzXhiJTLV3DqgL8w7iW778TFGFZRrhq4SXn6NSDEW4OJ4DqOS-mrKHpfv52-kun2DA
+-----END CREV PACKAGE REVIEW-----
+
