@@ -93,3 +93,26 @@ advisories:
 qjqWN9UmGMBXyNTMUC2TcWcFyjvil0ZaePJRgihmVwBYPF6vpIlo8_THgsU4eGHAuONOvzcRrypAvxRgzYktAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-01T23:36:28.883077948-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: libp2p-core
+  version: 0.8.1
+  revision: c8799de564d8d5598eec767c940cf1267bd49728
+  digest: U_V7dZjgqvY1WA89Z2fmn0QRHXEmHjp7UWcj1pdL6jc
+advisories:
+  - ids:
+      - RUSTSEC-2019-0004
+    range: minor
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+HCo414VLDhUhI3lGN7Wc2LQ8eMXoC0GCsqZFVdHM7MC8vU_xRfamQGmQWaXS11_yZ903h-xisSxZF0g2976mCQ
+-----END CREV PACKAGE REVIEW-----
+
