@@ -1,0 +1,24 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-01T23:13:04.838413761-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: asn1_der
+  version: 0.6.2
+  revision: 07ac15e3f7f01679be177e983d4cde235a100733
+  digest: F252Nour4x3eiRcDy6bMX149ysQV2cek8PF3_CgPCms
+advisories:
+  - ids:
+      - RUSTSEC-2019-0007
+    range: major
+    severity: medium
+    comment: ""
+comment: "https://github.com/KizzyCode/asn1_der/issues/1"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+WaQfAkRFgcYq2LAC3v2OmiITeNeRQ8jF9J9-EW1YeumNu1623pNQIMH1afZvgPSLxRa-GVnU96VR1ETMi2gQDA
+-----END CREV PACKAGE REVIEW-----
+
