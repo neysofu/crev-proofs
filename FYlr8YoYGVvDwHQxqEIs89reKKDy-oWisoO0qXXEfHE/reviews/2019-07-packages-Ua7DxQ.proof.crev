@@ -22,3 +22,27 @@ comment: "https://github.com/KizzyCode/asn1_der/issues/1"
 WaQfAkRFgcYq2LAC3v2OmiITeNeRQ8jF9J9-EW1YeumNu1623pNQIMH1afZvgPSLxRa-GVnU96VR1ETMi2gQDA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-01T23:23:35.702044386-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ncurses
+  version: 5.71.1
+  digest: VvNi373l04bwKCUoMnEoFVsoZ4hfsDC983e2mJOp1js
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+  - id: RUSTSEC-2019-0006
+    severity: medium
+    comment: "https://github.com/RustSec/advisory-db/issues/106"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+S7JkhX_Siy9pL24sTjvO7IofxT3ocLdpdaF48yjMjBw9yRZ8PSs3Pbbxnb8Of1gaow0rxEOi4dbAMx0km-peBg
+-----END CREV PACKAGE REVIEW-----
+
