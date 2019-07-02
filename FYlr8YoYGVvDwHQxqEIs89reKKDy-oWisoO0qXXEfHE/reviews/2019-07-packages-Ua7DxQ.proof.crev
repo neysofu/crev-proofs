@@ -162,3 +162,26 @@ advisories:
 82sT1JW_jx_dBjHvs3mrVvxduNAk9pzCaK-OlcO9BmC1SaFNkiS3-BHDKT6IC_C_Ub62UV9Yfw2BiwWfzCd1Ag
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-01T23:39:38.254910480-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: protobuf
+  version: 2.6.0
+  revision: e506e962b2524be296429aca080ccadb296c36e3
+  digest: azosegiV1f_Lf9FRRYNTDeIb9sYjwiJjmno3sNKCpXU
+advisories:
+  - ids:
+      - RUSTSEC-2019-0003
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+yT805gAaSwpXmBfPDoaMxYDt5VMCEzBbob5CVu97a32_H7fSy_DwYxFWMIXeIhZ2UfvvNOdmoLvSO6CqH5-hAA
+-----END CREV PACKAGE REVIEW-----
+
