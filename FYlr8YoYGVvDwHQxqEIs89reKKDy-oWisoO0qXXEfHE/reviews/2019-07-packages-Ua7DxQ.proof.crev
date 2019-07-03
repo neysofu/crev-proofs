@@ -650,3 +650,25 @@ advisories:
 Fa98C_a_Ve8-gGdhg6jF1egU_ksmzOfuJSAaHuNbvOgFHPLLrOT0aWvJwpMsiL42R2KMeUzHCBiz5-wkzf-iCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T22:12:18.808773673-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: trust-dns-proto
+  version: 0.4.3
+  digest: y7EdhF4HIAAp6e8wgUgGhhxNYBORorKK1seQMXSxU6c
+advisories:
+  - ids:
+      - RUSTSEC-2018-0007
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+qfL6ayhmUm63Lt6cq9lqEtZbPaZWg9l03nhoxjKPWtDYYrczZDm6WzL0zB5YGBaX-9d_NTmATF-zOGM8cMkpDw
+-----END CREV PACKAGE REVIEW-----
+
