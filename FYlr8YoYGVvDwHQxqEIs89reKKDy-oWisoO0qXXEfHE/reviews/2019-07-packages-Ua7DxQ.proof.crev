@@ -229,3 +229,25 @@ advisories:
 MAuKCqnlHe6SxTlwH6YLjCurXAAC3XkyBtfUj2b7RC6BUsESp0qqmd9RMZ2J-Rl-2PzTLkFn3w2NYxlPsaRFDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:19:21.237301244-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: claxon
+  version: 0.4.1
+  digest: siaJeWZTwWC2zEOYgGY3WAdBSrdFe3LSyWyr10EiYFA
+advisories:
+  - ids:
+      - RUSTSEC-2018-0004
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+f_i-VuN3leSfIz5otXrYsJgztj4H6t2BpSH49nrYNh9OAmZpcCeKhysLI_yx6miSxKZvWQJMdrtUFjGKhPVEBQ
+-----END CREV PACKAGE REVIEW-----
+
