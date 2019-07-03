@@ -606,3 +606,25 @@ advisories:
 N4NXWB4E72N5RolVjNrPlMDtKJ5VNIuvX4KCZ83VBiZ2UBMnXZiJ5BgN7EIwyc2rGqgZM8zgJDJ-6wi9cvvyDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:49:30.345496558-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sodiumoxide
+  version: 0.0.14
+  digest: Cz4oUhEg3SfQU3L4g7VRv3reoFPHd4ve1_sCGsdcbMg
+advisories:
+  - ids:
+      - RUSTSEC-2017-0001
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+-wIKk-6FCW3imMplxgfY-jiCzsKf3DFBrZssO_oHcUgN1LDZt62rN0Y8VZo4oOJ8aJFaPr-nIzkzcJ4Kq5Z7BQ
+-----END CREV PACKAGE REVIEW-----
+
