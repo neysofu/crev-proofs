@@ -839,3 +839,31 @@ advisories:
 MHEfoiUE2I1gNSHqP1BYtUVqCaQUC8zGo8z-CTu3EeFkSE7M3JqyXUJe2yjKG3FApzkGfz-RvSguAjyOBhjxDA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-03T12:56:50.887450268-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smallvec
+  version: 0.6.10
+  revision: 830d32bbdb7dc858d1f81d662fe6dd06219f0647
+  digest: KCQHZ4p8HJWGuHhYLI_u_PolWMF3gMTXC62YMuCe2Fc
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+advisories:
+  - ids:
+      - RUSTSEC-2019-0009
+    range: minor
+    severity: high
+    comment: ""
+comment: Quite a bit of unsafe. It seems to me this crate could use some fuzzing.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+P37gKCTPMua63NvMtD8yV153xRZuoFEj5aErG_1XXmpRMUcyXdiHCEFyMTh9nGBx0E4z4yhVjdMbzuNU-WLrCA
+-----END CREV PACKAGE REVIEW-----
+
