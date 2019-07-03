@@ -207,3 +207,25 @@ advisories:
 sHmq-d0oIm7OP4Yg-fHM1KL7zqmN5QojufzHoM4XjOWW2oqBvm4MKOvaydkPCrioUhLQB7gpYNhcCbBQabC3BQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:17:25.936301318-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: arrayfire
+  version: 3.6.0
+  digest: LCX1F4EdH7lZ6gyBl8-WYTcEh5FztsAYkAHWkC5kDqg
+advisories:
+  - ids:
+      - RUSTSEC-2018-0011
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+MAuKCqnlHe6SxTlwH6YLjCurXAAC3XkyBtfUj2b7RC6BUsESp0qqmd9RMZ2J-Rl-2PzTLkFn3w2NYxlPsaRFDQ
+-----END CREV PACKAGE REVIEW-----
+
