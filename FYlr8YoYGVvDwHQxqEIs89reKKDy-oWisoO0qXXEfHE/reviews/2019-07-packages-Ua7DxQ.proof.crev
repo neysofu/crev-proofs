@@ -295,3 +295,25 @@ advisories:
 B3FmhNV5-XuglEQfBaFgURopKyPNUonKYtPCLbMJCAkoEwd9KFG8ioez30p3tbB3tvp6eG05Eic9CngM-TqmBQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:21:55.674266319-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crossbeam
+  version: 0.4.1
+  digest: PoIb6iLQ8hIw9aMmnLBNQjtabDf7zZwTOX6QYshI4YY
+advisories:
+  - ids:
+      - RUSTSEC-2018-0009
+    range: minor
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+6_AoLwH69BDvwzCHFqr3Nh0IgEvjetj8BtT3Az2V5eh25HwWRA_vNjf8YpJUnUv4iyRLm4gKTsq9sG44JjtpCQ
+-----END CREV PACKAGE REVIEW-----
+
