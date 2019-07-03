@@ -495,3 +495,26 @@ advisories:
 rMvIAoYOI66L0RLSCXpPPXXGgrAnbfjFzleS1LVhg1BggQOwIjA3LouVrsn86iOu-FU8wr7plO5fk2ibCAxJBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:46:10.082055767-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: slice-deque
+  version: 0.1.16
+  revision: d38fe241c8b72060ac442e5aed1aeddcd3b28144
+  digest: x9Iswtcq7gIhpOLghYv_Rv2Nw9GyeGWNjx1nyjLUrHQ
+advisories:
+  - ids:
+      - RUSTSEC-2018-0008
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+nK4ukNIXiG8zZDyjKltpHLiDXAOp_UzPIZ36IY_672tbAo-lfkFNfTvMBvyO8VEypMQlS1hi5dg6hBGJ9sj0Cw
+-----END CREV PACKAGE REVIEW-----
+
