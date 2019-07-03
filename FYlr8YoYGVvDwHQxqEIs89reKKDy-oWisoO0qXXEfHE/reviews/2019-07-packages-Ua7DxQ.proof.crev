@@ -361,3 +361,25 @@ advisories:
 LG8fQT8K96HFLa8feK5tCmtP2XB2qPY2NntOOx-xMd4mHe5Gbb4g08g8oT3PI_p9CNK0QWNh3QTcQLdtcT81CA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:25:30.511554700-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hyper
+  version: 0.9.18
+  digest: prL-5pBJeKLe8iFqNKBzr6wVdk25MQ3A54jbQs7n5tw
+advisories:
+  - ids:
+      - RUSTSEC-2017-0002
+    range: major
+    severity: medium
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+HgQbP63eAJ_DmRiezkAei3OhV4SIMV-USVN39GNrPk7qLz31CwYqh62UB3Z_Nw4jaEYI-390pKR26SZ1DXc0Ag
+-----END CREV PACKAGE REVIEW-----
+
