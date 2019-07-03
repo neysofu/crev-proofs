@@ -472,3 +472,26 @@ advisories:
 oz09rT7CdbSqI1fosEXPXjY4AHsZdngIdDVJyS5OqpOhO5Xbs6gLO4cBbKUYvBkTSE2FrpUZO1QAybmcwRVOBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:44:44.696551561-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: serde_yaml
+  version: 0.8.4
+  revision: c82357a33d5221e8f4a435e81ae145bb40ef5e30
+  digest: qIN09AI0_g8qavgOGEBOmpiRg910gHNC0Z7ev7i4zMM
+advisories:
+  - ids:
+      - RUSTSEC-2018-0005
+    range: major
+    severity: medium
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+rMvIAoYOI66L0RLSCXpPPXXGgrAnbfjFzleS1LVhg1BggQOwIjA3LouVrsn86iOu-FU8wr7plO5fk2ibCAxJBg
+-----END CREV PACKAGE REVIEW-----
+
