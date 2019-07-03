@@ -427,3 +427,26 @@ advisories:
 xeqUdolJH7soiJrQGEMjrobEjb-HYB3eGwVU55fyN7O2p4I9HpG5yXIPeAR8mkSSQhCLlaB7JS6uqtZ8xVw7Bw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:43:01.628572170-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: safe-transmute
+  version: 0.10.1
+  revision: 26ec6b7573c4dfec37109188095674c16f709d73
+  digest: SkrmHgbEo5cSNaDOkisJqmQivRlzpjVGWE7mbnzr_9c
+advisories:
+  - ids:
+      - RUSTSEC-2018-0013
+    range: major
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+hPE5vN1WA1dy00wtfz_USVKSBWNZ7-xtUZCyuTbVQuZ_115TjAtDwGgbbAv4Az4Fao5_4C3uYW9VLwExoDl6Dw
+-----END CREV PACKAGE REVIEW-----
+
