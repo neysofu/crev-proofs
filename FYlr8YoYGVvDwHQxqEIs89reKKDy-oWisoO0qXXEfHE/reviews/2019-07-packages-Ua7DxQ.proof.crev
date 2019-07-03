@@ -716,3 +716,26 @@ advisories:
 y3nupS8aHz4TdnUMkgLFMGspoU7fRzwVO_COfw4S61NgDrlYaXZEygQX47HwkUd0MHBvs_5Nm1p6nShLeJjrDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T22:14:17.938508137-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: yaml-rust
+  version: 0.4.1
+  revision: bac6e1094dded4959cf9515236997893d31c8a47
+  digest: LzpP-58m7BGoiZgBIfwfHOgGaaIhHfHgoqimJO_48Ps
+advisories:
+  - ids:
+      - RUSTSEC-2018-0006
+    range: major
+    severity: medium
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Xj5sxo6XFgFIDt6Ieh7fsh2TSUepxPw4uoR1MqS3qqER7rOAqFyVMXnes7WdedcWJvVGiH1pa8GLBV7_krMKBQ
+-----END CREV PACKAGE REVIEW-----
+
