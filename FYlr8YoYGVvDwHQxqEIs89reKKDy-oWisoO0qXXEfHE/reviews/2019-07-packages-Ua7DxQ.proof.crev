@@ -816,3 +816,26 @@ comment: Quite a bit of unsafe. It seems to me this crate could use some fuzzing
 pd0tFNTThdLF6UOI8XF1dpH6ZJsFecytb02gTR7eLRX4XqO6fTkfbC_OQhFTm6tVLSm5waYBpm1mxnub8ZZFDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T22:31:57.073394694-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: simd-json
+  version: 0.1.15
+  revision: e70a931671771de51cfb918034d5d15a6aa64303
+  digest: WGiQk8CrC8mc1kQNTDakHaPeiM85pVWJrsW78dYidOM
+advisories:
+  - ids:
+      - RUSTSEC-2019-0008
+    range: minor
+    severity: medium
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+MHEfoiUE2I1gNSHqP1BYtUVqCaQUC8zGo8z-CTu3EeFkSE7M3JqyXUJe2yjKG3FApzkGfz-RvSguAjyOBhjxDA
+-----END CREV PACKAGE REVIEW-----
+
