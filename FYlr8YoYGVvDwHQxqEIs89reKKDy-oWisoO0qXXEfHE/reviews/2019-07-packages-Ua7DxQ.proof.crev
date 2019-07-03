@@ -273,3 +273,25 @@ advisories:
 OvzVuLtlHPPpaT6ayumqa2SrxGQFVlC2EgdS3UNxzLq7AL1tOekzcIWxrAHCZ5E51dVF7FLbOPoJclBEQoOBAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-02T21:21:24.856720838-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cookie
+  version: 0.7.6
+  digest: i1koM_KVobW8tgKFn0ieK9Pg7PcPdS98MzyTRkq5WGg
+advisories:
+  - ids:
+      - RUSTSEC-2017-0005
+    range: minor
+    severity: medium
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+B3FmhNV5-XuglEQfBaFgURopKyPNUonKYtPCLbMJCAkoEwd9KFG8ioez30p3tbB3tvp6eG05Eic9CngM-TqmBQ
+-----END CREV PACKAGE REVIEW-----
+
