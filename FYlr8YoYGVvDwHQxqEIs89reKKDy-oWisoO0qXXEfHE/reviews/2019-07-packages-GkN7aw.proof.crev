@@ -1,0 +1,21 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-03T13:30:11.928180285-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: failure
+  version: 0.1.5
+  revision: 65c825aeaa6b07a51e4fb1d824625485061604f4
+  digest: WrydTWjVkkf0T1MQggpiDoHNWJMcTJRyasgTZJ7LLso
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+tgbuie2oyWeQSLzw5DWbzZheUVKdcAC2QkCEqm8vfXe3OrvsF3YyjDG4PI0LiPUXDsrb6tctax-9jZ-un0hFAQ
+-----END CREV PACKAGE REVIEW-----
+
