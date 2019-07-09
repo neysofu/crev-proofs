@@ -867,3 +867,26 @@ comment: Quite a bit of unsafe. It seems to me this crate could use some fuzzing
 P37gKCTPMua63NvMtD8yV153xRZuoFEj5aErG_1XXmpRMUcyXdiHCEFyMTh9nGBx0E4z4yhVjdMbzuNU-WLrCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-09T00:03:36.183491963-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: orion
+  version: 0.11.2
+  revision: cbc5ab6e3404270d1844730d2bc0c7aa53d1ff65
+  digest: StusFQFW7TaDugTMr9pTthEYatXjtvnAVjF6osyhdNA
+advisories:
+  - ids:
+      - RUSTSEC-2018-0012
+    severity: medium
+    range: major
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Z6xmhweLAc6hehspFI0adgM_dRhJKl5vN54TO_lIdkGWxWa3Jlw0bSay0-FIWAH_uN3N8Er5ipTE65SjDEisBA
+-----END CREV PACKAGE REVIEW-----
+
