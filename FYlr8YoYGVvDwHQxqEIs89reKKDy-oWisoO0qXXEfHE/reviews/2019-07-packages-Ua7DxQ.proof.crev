@@ -890,3 +890,26 @@ advisories:
 Z6xmhweLAc6hehspFI0adgM_dRhJKl5vN54TO_lIdkGWxWa3Jlw0bSay0-FIWAH_uN3N8Er5ipTE65SjDEisBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-09T00:08:39.972085568-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: libflate
+  version: 0.1.25
+  revision: 2efa0ab0d59698128b75ba2e6ec19195b403c83e
+  digest: T-MPvlzuo9ohTIkfLOT7lZdqoGMk2dE_UIfgHRI_kyE
+advisories:
+  - ids:
+      - RUSTSEC-2019-0010
+    severity: medium
+    range: minor
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+OepryijUK3ocaKuiglY5-7Vpd0uDqveJOkMz-kW7KH7JV_hsGz4Gzx23QKRLvabzO2mUsvo2su1wNu2xQHjDBA
+-----END CREV PACKAGE REVIEW-----
+
