@@ -913,3 +913,24 @@ advisories:
 OepryijUK3ocaKuiglY5-7Vpd0uDqveJOkMz-kW7KH7JV_hsGz4Gzx23QKRLvabzO2mUsvo2su1wNu2xQHjDBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-11T15:20:19.956026531-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: pmac
+  version: 0.2.0
+  revision: 6e3c6fe9ec23376f4745d03d31661eafb99f877f
+  digest: nIP-xYQluvjVDdB__AnskSRgWgi0etslMo8Aa9ZYZBM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+9cAT2oNu5ggbK7lkkWR_GCufnspdEeQWGMAoES6oFYzXHGqZPr5nwIZu-S0T-4HxG1QkmkU6MzbY3BdK6hHNDw
+-----END CREV PACKAGE REVIEW-----
+
