@@ -40,3 +40,23 @@ review:
 mKeAKzStU41x_WW_wvqYqXAZfQRQW2rxCxXJkdrM001tv6ApV5ewTDNtHk5PEPdSZ-8tXTfALn446dhTseU9Cg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-11T16:25:20.292198890-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: want
+  version: 0.0.6
+  digest: fwhr-pto8CJLXBLz5FgHpV-3y2MQeghFtLF05t-7LaQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+y-rYz8mx8S84PS-APpk4cMscpNC_Slznsb1V26x9ujtf9IsdOtkYgmOh5hst2YR2qOE1YfVx5xvkYWAQJTr5BQ
+-----END CREV PACKAGE REVIEW-----
+
