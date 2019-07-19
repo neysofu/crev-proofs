@@ -934,3 +934,24 @@ review:
 9cAT2oNu5ggbK7lkkWR_GCufnspdEeQWGMAoES6oFYzXHGqZPr5nwIZu-S0T-4HxG1QkmkU6MzbY3BdK6hHNDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-19T15:17:52.369600887-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bip39
+  version: 0.6.0-beta.1
+  revision: 08a62f0e1f913e0168ebeb805697baa2b0107367
+  digest: YouFWVrpPkt1aZpt7U-b4e2f2G19ug2yVw2kw0R0Iqs
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+QYE48GE1iVVGuopbBVEAvM71KNx9mKJGjSaOVJ87hIx5KmPvj1mwiVFx5SSQS-EgGEzDkS1q8NaQw6SUqlXRCg
+-----END CREV PACKAGE REVIEW-----
+
