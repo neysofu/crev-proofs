@@ -955,3 +955,25 @@ review:
 QYE48GE1iVVGuopbBVEAvM71KNx9mKJGjSaOVJ87hIx5KmPvj1mwiVFx5SSQS-EgGEzDkS1q8NaQw6SUqlXRCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-21T14:41:12.825820831-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: memoffset
+  version: 0.5.0
+  revision: fe0dce0d460013356ade74fb7472b578ef0d6065
+  digest: W8BXJoMKkNqSELEzzuN_wv93EQ6bWQfgFx_O-9mokbc
+advisories:
+  - ids:
+      - RUSTSEC-2019-0011
+    severity: high
+    comment: ""
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+CuzbXANa78NrdDJmD6qqcS9Ly1rA2ANivD4DlKJTYj6GLcKYyQLMjZTxkyWRiFx8I9Hj2njyZQbZWoNaoejvBQ
+-----END CREV PACKAGE REVIEW-----
+
