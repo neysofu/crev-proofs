@@ -27,3 +27,30 @@ comment: |
 3b2dHvAj42LHXwpWkpaDDPQAngCDWuFudztyILIlYA1BdScO53wlyWxflXeGFRb6m4MQzsMLWBVNDXj4160YDA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-25T15:39:19.472932309-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: memoffset
+  version: 0.5.1
+  revision: eeacd4253c21b58099a9af8488bfb51f3c75719f
+  digest: 8dfGtI3Ee7_ITUTI90fIHiznJHJdlG27VRvOOQ-ydKM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+issues:
+  - id: "https://github.com/Gilnaa/memoffset/issues/24"
+    severity: medium
+    comment: This crate is currenly unsound.
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+LWfDjmtprIS8wCyvTbtEQL4_i5Qxu1qQUl-HDn0jOlRxeYzlQ7g37wA2M_cw9mOZF7XsXbyVaUmxxxOzjiblCw
+-----END CREV PACKAGE REVIEW-----
+
