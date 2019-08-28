@@ -46,3 +46,19 @@ trust: medium
 uH_BHrjLCs27eyowVkijo21I5R5mvmQdQJHj9geqpYE-OB4GqIUMr7OHqvlX9hn1Q-_srrxSOcXegewO_Ud5CQ
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-08-28T12:34:20.603913926-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: gV7ZijKKhdQEbiev0zMLRQKUtUa4zqiTFfLsdREUmSc
+    url: "https://github.com/ryanisaacg/crev-proofs"
+trust: none
+-----BEGIN CREV TRUST SIGNATURE-----
+gvtHKj5L2b49oEmW_591txFnrF5it21urff2WyhSVdJLgaHqp5RW8_izSx1SatY_laImGG9Dx453reph_hBbBA
+-----END CREV TRUST-----
+
