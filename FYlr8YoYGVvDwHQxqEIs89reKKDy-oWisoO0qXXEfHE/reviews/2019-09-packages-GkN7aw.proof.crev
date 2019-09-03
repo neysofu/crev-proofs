@@ -46,3 +46,28 @@ comment: |
 XjoJ7660viNXwG9nps_1UyyDEHYpmqXE87eoJnoNsDborxIEcmqzK_iQRJqspE8NtyIdNgZxlcGcY1-cElvpBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-03T10:57:04.182083770-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: image
+  version: 0.21.3
+  revision: 3b6b15e0ef5b1c9646a37f625a7e2a04fbbe7198
+  digest: JQJs4mEhY9xrd1pCXDDdr5QscfznF128v1Qx06kEzyQ
+advisories:
+  - ids:
+      - RUSTSEC-2019-0014
+    severity: medium
+    range: major
+    comment: ""
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+X3vVmns73MWzk6ffiTf0WzYAvGeXrODRh1EAp8DcnlEmeosX1P6vuTQX8McyMErOSAYdKzDWiV5WKC84QIoXAw
+-----END CREV PACKAGE REVIEW-----
+
