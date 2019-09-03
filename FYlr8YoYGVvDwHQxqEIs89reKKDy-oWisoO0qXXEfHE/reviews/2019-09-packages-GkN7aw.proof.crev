@@ -1,0 +1,24 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-03T10:51:07.657759068-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: renderdoc
+  version: 0.5.0
+  revision: a404df35ea1d34f870bfa5cf7def493789cb4b37
+  digest: j3rEuocEHS3CIPzeyUrSschfXi_43PviRvW6o49gm1o
+advisories:
+  - ids:
+      - RUSTSEC-2019-0018
+    severity: medium
+    comment: ""
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+CWVgfMsPCYmprwZtm3UIyF8Oys-pfaBb8k8UN5leTZGkDbsdIQyiK6z9zrCBHd3-tj0n19lIsrlG6fc1rRyyCQ
+-----END CREV PACKAGE REVIEW-----
+
