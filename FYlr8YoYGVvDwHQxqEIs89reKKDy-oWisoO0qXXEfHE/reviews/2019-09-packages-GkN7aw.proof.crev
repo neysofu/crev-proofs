@@ -145,3 +145,28 @@ comment: |
 23QwHlsl-6Ba6xivk6kTlEvyZUK4FmXnqtI__j_4UapXnM0-z3bun0OBxRUamwWH570QkCoq-0drFD8iXemFDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-05T13:39:53.616874090-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: spin
+  version: 0.5.2
+  revision: 0e49d681fba809416d3ea17ad04cc6b50c402efc
+  digest: IQbTqxUdtYlK0cE85FVSLe7EWJu9bwLfJRme0dJS0z4
+advisories:
+  - ids:
+      - RUSTSEC-2019-0013
+    severity: medium
+    range: major
+    comment: ""
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+XvQRAsyDBR21MFyoC2nVUwfxTrs6RaZSR_97_KOBWPd0yJ6qy-v8c1KhfOt-apnY0uIGkFrNxWm9W8W8ds1TAw
+-----END CREV PACKAGE REVIEW-----
+
