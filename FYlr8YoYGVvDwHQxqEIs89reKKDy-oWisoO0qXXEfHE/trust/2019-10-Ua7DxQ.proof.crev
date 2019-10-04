@@ -14,3 +14,19 @@ trust: low
 O3agCBOz6wxA2lRovA53ErnQWlwkCOY6OyvQJda_kVn_xXPwJZFqvNswQlEDUZ2yQqO4KF8-8p6er8ZKDQBjBQ
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-10-03T21:16:26.528604599-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: dUc4luSnPuYlfYarXUizPOSBLUBZguTVOQUCHmAKSps
+    url: "https://github.com/programmerjake/crev-proofs"
+trust: low
+-----BEGIN CREV TRUST SIGNATURE-----
+0PefH9uDvQFlE7jsaVycYNXKecl43QNtbd6s4lIWMfrkUbhme0gdMEH-5gvLgV-fsoIADaxXS-oBAjVYylDaCA
+-----END CREV TRUST-----
+
