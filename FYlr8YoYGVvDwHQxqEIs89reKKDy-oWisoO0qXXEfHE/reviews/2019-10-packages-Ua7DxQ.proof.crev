@@ -66,3 +66,26 @@ comment: |
 ITB2rUC-9QsRSB1P1fVBfAsyfMtVYqGhiCdsHjVgh0jq_PZpAQLWkO6Lofp1eq20NhEhGc4m6Vw317Ej16oYCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-04T23:20:05.926764539-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: foreign-types
+  version: 0.4.0
+  revision: 263ab4afdb1268073e1cbbf010768198fae388ec
+  digest: KwDZcumPuuS0gstJ0jE_YQWmcrfQ9YAa8j1g0ebC5BA
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+comment: |
+  Looks sane, but I'm not familiar with it.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+FldB4xu_QDf502CZeqeMjHrnCdBngeRCmLIBJhTdST3aVvLsq_fh6M0-WCS-t7zxYTMaXHmzpkF2DcAfBs_nBQ
+-----END CREV PACKAGE REVIEW-----
+
