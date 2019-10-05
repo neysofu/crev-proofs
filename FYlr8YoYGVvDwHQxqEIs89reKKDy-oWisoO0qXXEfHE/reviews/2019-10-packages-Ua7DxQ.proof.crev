@@ -42,3 +42,27 @@ comment: |
 3pSDiyncCOrCz2kg_c0WgDAY-Lods3s5xNjvKooF7Y0yMm2Z2Q754MXg2n17y-rQOwFL-dOgyx-Xsknfsn7QAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-04T23:13:52.645188873-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: scopeguard
+  version: 1.0.0
+  revision: 5792dbfbeaa125978a5c96cce52695f0cc6c34d9
+  digest: kMTa9K3p-2hbWuL8RRkEf15IGhnRPdAI1E2OxbELDbQ
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  No malicious code. The `unsafe` parts seems sane, but they could use a
+  a review by someone more confident with `unsafe`.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+ITB2rUC-9QsRSB1P1fVBfAsyfMtVYqGhiCdsHjVgh0jq_PZpAQLWkO6Lofp1eq20NhEhGc4m6Vw317Ej16oYCA
+-----END CREV PACKAGE REVIEW-----
+
