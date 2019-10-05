@@ -20,3 +20,25 @@ comment: |
 IzkbACJaQNWeTAiwQ7gFpKLuoFumRBNECmuI4elGSMHYlXuWeL44Sj0HudRZsp0FWagEty-fzFWEPt4DKvr3CA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-04T23:08:10.902017826-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bytesize
+  version: 1.0.0
+  digest: kd-GRnUz1fLAegAqJKbWyAgMBaF3LIfcbIZG-ONQD8U
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+3pSDiyncCOrCz2kg_c0WgDAY-Lods3s5xNjvKooF7Y0yMm2Z2Q754MXg2n17y-rQOwFL-dOgyx-Xsknfsn7QAw
+-----END CREV PACKAGE REVIEW-----
+
