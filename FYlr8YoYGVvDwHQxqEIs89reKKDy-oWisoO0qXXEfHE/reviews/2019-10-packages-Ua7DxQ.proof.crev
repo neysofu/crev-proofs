@@ -1,0 +1,22 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-04T22:54:47.382477249-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: shell-escape
+  version: 0.1.4
+  digest: bijKKLMMvvWOJGvLm-VhJnO7baquEfQ7TUdFY64xIBo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+IzkbACJaQNWeTAiwQ7gFpKLuoFumRBNECmuI4elGSMHYlXuWeL44Sj0HudRZsp0FWagEty-fzFWEPt4DKvr3CA
+-----END CREV PACKAGE REVIEW-----
+
