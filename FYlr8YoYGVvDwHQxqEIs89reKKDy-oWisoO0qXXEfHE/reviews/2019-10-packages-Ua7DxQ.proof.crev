@@ -112,3 +112,25 @@ comment: |
 RyGa-4khvo3YcWfz31cY2N4HoV7uNpF69OTYUJAAdK_BIVYsQYG_O8bmTgCl5xTCa02xvVghZl2OsN9mBhP-Dg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-04T23:26:10.242480814-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: try-lock
+  version: 0.2.2
+  digest: KkPLJcvVZaaUG2Nj2Qg1OxknuVyTvaWSgldF0r3wIYs
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |
+  LGTM
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+jELiwK4gSmItAsL7UMt2K8cm-3vqxBEUWWoShwKeyaGnInOsHkTGfEJb_sjKLmk1RucS54At4f_8vbaW8527AA
+-----END CREV PACKAGE REVIEW-----
+
