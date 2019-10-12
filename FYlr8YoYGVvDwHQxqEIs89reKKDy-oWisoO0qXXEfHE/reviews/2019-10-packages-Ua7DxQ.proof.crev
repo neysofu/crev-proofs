@@ -134,3 +134,26 @@ comment: |
 jELiwK4gSmItAsL7UMt2K8cm-3vqxBEUWWoShwKeyaGnInOsHkTGfEJb_sjKLmk1RucS54At4f_8vbaW8527AA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-11T23:29:09.474478301-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: darling_macro
+  version: 0.9.0
+  revision: c9ef0603339b19f93c4647186014d07dfaf63edf
+  digest: ZZy5iR_R54Sip3Zy2cg8Ml9Ew0C_UpgidZQ0H4WZw-M
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+fdayBt-zDC54fbtLN5KFI0_VhccbapSAXjUYsI2TEhZgYZYdCUXsqvbWbToGg5yyTFL6Lh0lWrP6S6cQg1c0Ag
+-----END CREV PACKAGE REVIEW-----
+
