@@ -157,3 +157,25 @@ comment: |
 fdayBt-zDC54fbtLN5KFI0_VhccbapSAXjUYsI2TEhZgYZYdCUXsqvbWbToGg5yyTFL6Lh0lWrP6S6cQg1c0Ag
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-11T23:31:22.374449352-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fake-simd
+  version: 0.1.2
+  digest: 8mI6_BKX0wZ8TLGAvP_N8OydiX8bqY9yW8fvQky8iwM
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+8UQrBJXw1h13ZBegq1w2Muhx7s_LJqAFCP1AxZNr182cCSmo_L8LRX3zxtBW9YNBHojXYpARsnNKbd_GOftwCg
+-----END CREV PACKAGE REVIEW-----
+
