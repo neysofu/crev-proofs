@@ -398,3 +398,28 @@ comment: |
 efikU1EdNg71qi0Bp5an6unYLkJE2bRFXF5bViPIGBHMfxaANfAurYcRKMWBGP3zFifwHokpzvezH5y2PmLEBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-12T21:56:17.472332567-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: linea
+  version: 0.9.4
+  revision: 218027e38e570a26778e07a2b6775dc3b540bc81
+  digest: ZjNXw0yuBc5bp05vyBQ6bpb4fRV_kDLhsghy4xQucUs
+advisories:
+  - ids:
+      - RUSTSEC-2019-0021
+    severity: high
+    range: major
+    comment: ""
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+vPYuSDFIX44bdg84yAKyLlJ8aAf1i6uWTQiJb-xPSJV5uOCbsjJbAnXzn2VeXA5s4UkF6xDaSon5bVnzi1fFAw
+-----END CREV PACKAGE REVIEW-----
+
