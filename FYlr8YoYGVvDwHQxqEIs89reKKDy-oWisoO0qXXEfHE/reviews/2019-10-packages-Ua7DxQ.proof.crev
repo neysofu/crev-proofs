@@ -373,3 +373,28 @@ comment: |
 VX43iau_s4jVrQP37s1_sD-bxFyS8x_FrM7bVSF4ROfvDyrpsPgC7-mtNWOvpndfYsVfK3z-VONqZiIA7eZ0Cg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-12T21:54:59.859462726-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: compact_arena
+  version: 0.4.0
+  revision: d01ed1c48ba76c545dda027e831e0bd124d861de
+  digest: sWfekXegCM-W2Z18-SWrczDxDhtFaqfKtFd7DWzMu3Y
+advisories:
+  - ids:
+      - RUSTSEC-2019-0015
+    severity: medium
+    range: major
+    comment: ""
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+efikU1EdNg71qi0Bp5an6unYLkJE2bRFXF5bViPIGBHMfxaANfAurYcRKMWBGP3zFifwHokpzvezH5y2PmLEBw
+-----END CREV PACKAGE REVIEW-----
+
