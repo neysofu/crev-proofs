@@ -448,3 +448,28 @@ comment: |
 wCW-N6rwcCShVxIV9EOZURPImqyOMhfs6VkgnXkR0TPJ4vEinJD6_sGaS1GLse_XY2Q4BvYHaAWykKTY7yc6DQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-12T22:00:47.576034206-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: portaudio-rs
+  version: 0.3.1
+  revision: 3dfc728b0edc0c51f5177e3b1189b3230e488b3f
+  digest: oaezoLmhem2Bdrpxo55Q9igAV1wpOLIz_D1bZCpLrc0
+advisories:
+  - ids:
+      - RUSTSEC-2019-0022
+    severity: high
+    range: major
+    comment: ""
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+IdRKuWVNgo5jbULLtf0bnPYZ-mfKOjVc5lSvMiaiEoErNKBzvepI7l92Tbd2kfekAzxp--HfUy-E9Ywnh_ACCQ
+-----END CREV PACKAGE REVIEW-----
+
