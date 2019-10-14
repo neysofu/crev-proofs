@@ -1,0 +1,22 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-14T16:45:31.177635231-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: vec_map
+  version: 0.8.1
+  digest: 2vKQZVNNfTbQDuc-cm6pu-j0S3PR9j5fyeM1G1gOC58
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  No unsafe, LGTM.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+xoytN_d9C2B-GTJkevKdNeTFNq5HVrH7aZj-RTrkfgmtPwyQhgkoyQ3w4YvfGE5_id-MXQb0NsXahhho9G1jBw
+-----END CREV PACKAGE REVIEW-----
+
