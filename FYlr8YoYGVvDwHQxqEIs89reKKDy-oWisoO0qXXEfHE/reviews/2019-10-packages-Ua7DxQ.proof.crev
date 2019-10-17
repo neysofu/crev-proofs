@@ -473,3 +473,113 @@ comment: |
 IdRKuWVNgo5jbULLtf0bnPYZ-mfKOjVc5lSvMiaiEoErNKBzvepI7l92Tbd2kfekAzxp--HfUy-E9Ywnh_ACCQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-16T23:30:24.247391174-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ureq
+  version: 0.11.1
+  revision: 9913f222296382a421dcadff529589c0060c9053
+  digest: lBU0d-lKtkA5f4BUEwaTuKjQ8vnp80m6SHYjxj3XcJY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+comment: |
+  `Header::new` is unsound? This `unsafe` there seem unneccessary in the first place. There's not much performance to gain here.
+  
+  
+  `Header: value` - there can be more spaces preceeding the value. `Header::from_str` could take a `HeaderName:     Value` "The field value MAY be preceded by any amount of LWS, though a single SP is preferred. " (https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.2)
+  
+  
+  ```
+  pub fn add_header(headers: &mut Vec<Header>, header: Header) {
+      if !header.name().to_lowercase().starts_with("x-") {
+  ```
+  
+  Probably can be done faster by just comparing slice with `eq_ignore_ascii_case`, instead of allocating a lowercase copy.
+  
+  
+  
+  `src/lib.rs`: Tests doing http calls to external network can fail on offline machines, are a potential privacy problem etc.
+  
+  
+  
+  `PoolKey::new` - failing to get a port should probably be an error, since that means te scheme was neither http nor https, so why are we even handling it?
+  
+  
+  `Unit` indeed is a so-so name. If the comment is "unit of work" then it probably should be `UnitOfWork`.
+  
+  
+  ```
+      // pointer to underlying stream
+      stream: *mut Stream,
+  ```
+  
+  Ouch. When I see mutable raw pointers, I already know that I will not be using this code as is. :D . From what I can see later, it seems this pointer is used just for the drop implementation? In that case, just use `Option<Stream>` or `Option<Box<Stream>>`. `Option<Box<T>>` even compiles down to the same data/code as nullable pointer.
+  
+  
+  I fail to see the point of `Request::build`...
+  
+  
+  `Request::query` and `query_str` seems silent about the matter of escaping, and I wonder if it will work correctly at all.
+  
+  
+  `Request::timeout` ... Deadlines are better than timeouts, and are not harder to implement.
+  
+  
+  `    index: (usize, usize), // index into status_line where we split: HTTP/1.1 200 OK`
+  
+  I see no reason, why these two would be touple, instead of being separate and named appropriatly.
+  
+  
+  `Response::new` works by ... parsing? I don't know how I feel about that. Seems wasteful.
+  
+  
+  
+  ```
+      /// Rather than exposing a custom error type through results, this library has opted
+      /// for representing potential connection/TLS/etc errors as HTTP response codes.
+      /// These invented codes are called "synthetic".
+  ```
+  
+  I don't know how I feel about this. Seems like a bad idea. :D . It will lead to confusion during debugging eg. by people who don't know about this "feature" (eg. DevOps that will be reading logs of software that is using this library). They will see "error: 535", and wonder how the hell this code happened.
+  
+  
+  `        let mut yolo = YoloRead {` does not build confidence. :D
+  
+  
+  ```
+  pub(crate) struct YoloRead {
+      stream: *mut Stream,
+      dealloc: bool, // whether we are to dealloc stream on drop
+  }
+  ```
+  
+  
+  Oh. Here is another `*mut Stream`. I don't really get why it is neccessary.
+  ```
+      fn from_str(s: &str) -> Result<Self, Self::Err> {
+          let bytes = s.as_bytes().to_owned();
+  ```
+  
+  I don't think this clone is neccessary. 
+  
+  
+  Generally - negative review, since there's some `unsafe` code that I don't think is neccessary, and I have
+  no confidence that it is actually correct (quite the opposite... I suspect some stuff is wrong with it).
+  
+  There were some other minor problems, potentially bugs, a lot of casual needless cloning and
+  stuff that looks like plain inefficiencies, and generally this crate at its current state does not look
+  like something I'd recommend for any serious production use. The goal seems good but it seem not there yet.
+  I think crates like this need either a lot of usage and pair of eyes and developers to iron out all the details,
+  or some extensive test suite.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+o-EGG7hryBZaTBaC9eFb7wWqBxPAkK84XpoA2k1Pdiu7V1xlLmPoAoY11wmNZPHQ66spPzfkG3PGndfECwUzBg
+-----END CREV PACKAGE REVIEW-----
+
