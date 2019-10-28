@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-10-27T23:13:47.276480697-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: term
+  version: 0.6.1
+  revision: 61d944cfb767a00313497997878f9f2a35252b5c
+  digest: O1k-e-mqKDyrJIaEr3v1JO7Rb38RKCoXCsNUCplArw4
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: yansi
+  - source: "https://crates.io"
+    name: termcolor
+  - source: "https://crates.io"
+    name: crossterm
+----- SIGN CREV PROOF -----
+ad5Vxz8Kg2GSRVCKSJKFtrGwjivVgPnCRHXua90_Ffpsd1cBtaWvJldg-f0XHNSjtz0sjIUpVvZFmO8wPkIIBg
+----- END CREV PROOF -----
+
