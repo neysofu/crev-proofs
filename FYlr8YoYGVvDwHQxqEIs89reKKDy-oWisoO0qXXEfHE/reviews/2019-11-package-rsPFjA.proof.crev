@@ -113,3 +113,37 @@ review:
 MXGr-gmgx1Qv5qFgD4UDV4V-UmIvXepQ7nBxdvQeDqyEVw4_fGeEF3PUf40WZaI0xi_oZwKcHpZl2UR9OaWwCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-04T21:33:06.505450839-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smallvec
+  version: 0.6.10
+  revision: 830d32bbdb7dc858d1f81d662fe6dd06219f0647
+  digest: KCQHZ4p8HJWGuHhYLI_u_PolWMF3gMTXC62YMuCe2Fc
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+advisories:
+  - ids:
+      - RUSTSEC-2019-0009
+    severity: high
+    range: minor
+    comment: ""
+  - ids:
+      - RUSTSEC-2019-0012
+    severity: high
+    range: minor
+    comment: ""
+comment: "Quite a bit of unsafe, but I've implemented fuzzing for it https://github.com/servo/rust-smallvec/pull/168,\nso hopefully unsoundness issues won't be a problem anymore.\n"
+----- SIGN CREV PROOF -----
+Q2fZS93hyC5WKyPzry4EcEGLdch_BUzzzYXxnVJo0j0NwmNhmrPw7mXv3XXD5RHszY3WHS7ZwMKnKbTH2XqCDw
+----- END CREV PROOF -----
+
