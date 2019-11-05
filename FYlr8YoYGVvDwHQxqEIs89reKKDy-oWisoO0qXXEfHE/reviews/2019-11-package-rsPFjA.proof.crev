@@ -47,3 +47,25 @@ review:
 N13H87d0ILvpGdbVNMS_qN1-XZQ4aVyLgYH8fvhbUE2ukVWlLutILEIuTfQHbutuRhtq6Glt7dVTi7XOamMiAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-04T21:07:46.072057990-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: failure_derive
+  version: 0.1.6
+  revision: 20f9a9e223b7cd71aed541d050cc73a747fc00c4
+  digest: c0kPZKVBWA4OdqGvmAmvr-WtwUOudCe3qEuqxmE0mro
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+gflhDXkr_iiOp18cXZ1aCEB012iqnsqdKJ8YHjSWlDIOCYyFE2zHXSKwr_3F8bABtzf5EmSDdOQrMJmMc7RtCQ
+----- END CREV PROOF -----
+
