@@ -345,3 +345,29 @@ comment: |
 FsMdQdB28A_vSScEJ0HidQNEzBr38Kk2y37qy283yTAgDr3QybZkydIzJEf_HG0Y0yWIYJpXjUxKPt_AE8WeCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-05T11:11:59.470067902-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: chacha20
+  version: 0.2.3
+  revision: fd7769f58ecb23eb9cd8bad1edd850bc1a6a228c
+  digest: dOVArNKJ2wipZCQ9F7iMLznvcB1t12e7qMkCQ7h2Su0
+advisories:
+  - ids:
+      - RUSTSEC-2019-0029
+    severity: high
+    range: major
+    comment: ""
+comment: |
+  
+----- SIGN CREV PROOF -----
+VxNq02QPUEcCbCqxljHZy95rr8WpfrED_LMG__-PAjsEJOoVYI92hF4vLmiGNtA5HGPMN6btgRn-ggCsA7jODg
+----- END CREV PROOF -----
+
