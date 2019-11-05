@@ -91,3 +91,25 @@ review:
 1GRtYjop8i9OCulG7l-Rjc1r9e_I8PZWcaJddxtcnp9h0S_9KuLX2gPYIAmSF_6NLUFPAJOEQAmu8hL81P3OBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-04T21:31:59.678293602-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: same-file
+  version: 1.0.5
+  revision: 4205e2e1ed77cf202bfabaf85dcb021e396cec34
+  digest: zIu8RTuTZs6Xvi5piAxCJITQBiyQJAM0SMemDQ5t8NA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+MXGr-gmgx1Qv5qFgD4UDV4V-UmIvXepQ7nBxdvQeDqyEVw4_fGeEF3PUf40WZaI0xi_oZwKcHpZl2UR9OaWwCQ
+----- END CREV PROOF -----
+
