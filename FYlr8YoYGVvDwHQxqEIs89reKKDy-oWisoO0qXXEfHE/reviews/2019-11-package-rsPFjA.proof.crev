@@ -293,3 +293,29 @@ comment: |
 pKOim9KTQp0At2Ox9dvH6uiuIDSdl35cZivYd0VrIJ-wlo--2eum1gI5cvjR7ybVJg4iwoeiazC8iDlJJWDqDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-05T11:05:56.187558348-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: libsecp256k1
+  version: 0.3.1
+  revision: c05c4e0014aacf5f0599aee519f2d705caad4983
+  digest: UqG3MsVdm9t9r7wF8UnqWRAu9maVL7qOKR2KmXHGpXg
+advisories:
+  - ids:
+      - RUSTSEC-2019-0027
+    severity: high
+    range: major
+    comment: ""
+comment: |
+  
+----- SIGN CREV PROOF -----
+-9VybZwbf2rbSo_zcj3xpW0IyXqNqAwtL7_vwwdoAiuDVAY-jsYO1a9z8NbfTHzqcHvylKqu_wjLdY8DEJJJDA
+----- END CREV PROOF -----
+
