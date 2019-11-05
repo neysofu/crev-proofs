@@ -223,3 +223,25 @@ alternatives:
 -FZm-UCZQPIBjks4niDkv3U7AMaPrdEi6mDv4q0DC05Pomc-4eIHkI07-MA2ypfhzn5Kd7M47Qp6bzF8DW5SBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-04T21:45:40.441948028-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: chan
+  version: 0.1.23
+  digest: Zkv8a6KYPGwRnhjV8747PdAwXnKnC4DwNXQtvWUYGW0
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: crossbeam-channel
+----- SIGN CREV PROOF -----
+vKYoIUDNpTexCsqdNvuK5ozxe0v1IxPT9dARdV36-KRWmgLEpSIu_BQsAV1biufEaXESoCABEYSf0oJ3R4ncCg
+----- END CREV PROOF -----
+
