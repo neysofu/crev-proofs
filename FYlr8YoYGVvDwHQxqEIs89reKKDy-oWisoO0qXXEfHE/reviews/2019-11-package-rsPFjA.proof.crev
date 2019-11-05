@@ -319,3 +319,29 @@ comment: |
 -9VybZwbf2rbSo_zcj3xpW0IyXqNqAwtL7_vwwdoAiuDVAY-jsYO1a9z8NbfTHzqcHvylKqu_wjLdY8DEJJJDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-05T11:10:15.923804112-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: flatbuffers
+  version: 0.6.0
+  revision: 9936adf473978c0934e7734cb506887f6fc0b025
+  digest: 3L_EhytTZw5Jajn2IYYWNteLVtHWOrD031HPM22rbhI
+advisories:
+  - ids:
+      - RUSTSEC-2019-0028
+    severity: medium
+    range: major
+    comment: ""
+comment: |
+  
+----- SIGN CREV PROOF -----
+FsMdQdB28A_vSScEJ0HidQNEzBr38Kk2y37qy283yTAgDr3QybZkydIzJEf_HG0Y0yWIYJpXjUxKPt_AE8WeCA
+----- END CREV PROOF -----
+
