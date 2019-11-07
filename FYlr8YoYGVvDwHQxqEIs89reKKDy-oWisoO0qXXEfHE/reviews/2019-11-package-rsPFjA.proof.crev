@@ -371,3 +371,41 @@ comment: |
 VxNq02QPUEcCbCqxljHZy95rr8WpfrED_LMG__-PAjsEJOoVYI92hF4vLmiGNtA5HGPMN6btgRn-ggCsA7jODg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-06T22:02:06.902385164-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: attohttpc
+  version: 0.4.5
+  revision: 7384b4bafd3a0a44ff82af36fab2301c2312c932
+  digest: 4tU1jMt0n00Sy6_N3-yOULzXCpM0lifnLpZhtlsB6qE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: strong
+alternatives:
+  - source: "https://crates.io"
+    name: reqwest
+  - source: "https://crates.io"
+    name: ureq
+comment: |-
+  Basic review before considering using it.
+  
+  I really like it:
+  
+  * No unsafe code
+  * You can disable almost everything via cargo features
+  * Well structured, with tests and comments
+  
+  Seems like a great crate for places where performance and features can
+  be sacrificed for simplicity and a small footprint (code and dependencies).
+----- SIGN CREV PROOF -----
+atD0MuLlKdROQiNbz3GOArkrghDCiPOiiYSM-cGKpBEKBtt6Aq5M_FGdC6crzND_pAAZ17hc34ktZY_pi4FgBw
+----- END CREV PROOF -----
+
