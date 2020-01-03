@@ -22,3 +22,27 @@ comment: |-
 uj9lE4bw-8UPW1z3gjugvRdNhm7vV7gfxRYYJhu3eeyiW_Ov-_7WzoBmpG67l786gszUKQKVRkUFQBAMke8YDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-01-02T20:36:21.228669161-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: structopt
+  version: 0.2.18
+  revision: 2ac49b8c7db66af88870c589cf2d96dfba31e542
+  digest: ZGW1vyOsd0r6uFpYHqFGDBEXyTmNsNZ2gf4q8jDYaqE
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  Tiny proxy crate.
+----- SIGN CREV PROOF -----
+_UEZeSZtPsh7HjbI53zvoLhwtYkeZs5uZ-Zo9CAyW-G0uiyfRkF48El7tkQxjwfSvyMvmzjyYps8eeHbiz1jDw
+----- END CREV PROOF -----
+
