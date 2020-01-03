@@ -113,3 +113,25 @@ review:
 e5S-8Yl_x3QfQSVkPUrohLz10s7a2fvpHYOO6gkD9P7_Ii2U6gO4lti3nHB4QDQbjssi-hwsbM-YdSRlxlgdCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-01-02T21:52:20.390986005-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: block-padding
+  version: 0.1.5
+  revision: 78eca096689597105bbca866508df6144637ca2b
+  digest: aCWHJzk9jZXJrp4OKQSsWsmWafzC6mIxRjMgXFoPjgs
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+jMX_-bqR7o54ZdAcIrl9XHNiUtHLfL_I57cnAq3wtlJjcrPiTY4rpjvjACWTBT8ETHBg_A5heEYcfAmfrM30BA
+----- END CREV PROOF -----
+
