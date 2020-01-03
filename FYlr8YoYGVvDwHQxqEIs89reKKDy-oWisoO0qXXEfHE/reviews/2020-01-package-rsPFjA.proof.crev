@@ -91,3 +91,25 @@ comment: |-
 ZJg3zUiEzviDYp-EKv07G14T9q8iSGNNhmRsDABVU-yCltwR9Adzh7FkuBRv9VXM4f5WnUiTqSvetOFp2LuNBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-01-02T21:41:45.925943927-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: block-buffer
+  version: 0.7.3
+  revision: 6ab1bbf4c9f580576e44079bd95cadf49220e575
+  digest: cAx6ECd32DIt3Dv0EURoVrhjWiWxniSs-C943bY8_R4
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+e5S-8Yl_x3QfQSVkPUrohLz10s7a2fvpHYOO6gkD9P7_Ii2U6gO4lti3nHB4QDQbjssi-hwsbM-YdSRlxlgdCA
+----- END CREV PROOF -----
+
