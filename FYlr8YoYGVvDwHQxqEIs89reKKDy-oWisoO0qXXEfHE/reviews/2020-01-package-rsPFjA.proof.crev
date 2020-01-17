@@ -135,3 +135,35 @@ review:
 jMX_-bqR7o54ZdAcIrl9XHNiUtHLfL_I57cnAq3wtlJjcrPiTY4rpjvjACWTBT8ETHBg_A5heEYcfAmfrM30BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-01-16T20:46:45.490075787-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: actix-net
+  version: 0.2.6
+  revision: ebf8d7fa3481d02503812fb1c4061ae987060e30
+  digest: 5RqRXABIJly1ZZlqphYktM2CeAOUC8ry8eeHbjiUmqs
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+comment: |-
+  There have been numerous reports of authors ignoring
+  soundness issues in `actix` ecosystem.
+  
+  See example:
+  https://www.reddit.com/r/rust/comments/epszt7/actixnet_unsoundness_patch_is_boring/
+  
+  So I'm giving a proactive negative rating, and feel free to contact me if
+  there are good reasons to change it - eg. if the issues have been addressed
+  and maintainers are commited to taking memory safety and security seriously.
+----- SIGN CREV PROOF -----
+XJys71yjigr1bSym_5847tCnmkggh07dXL9T2oP_Fv8HeObkTCvRZCQqGf-VoiZsik26u26seaB25ZK5w4qRDw
+----- END CREV PROOF -----
+
