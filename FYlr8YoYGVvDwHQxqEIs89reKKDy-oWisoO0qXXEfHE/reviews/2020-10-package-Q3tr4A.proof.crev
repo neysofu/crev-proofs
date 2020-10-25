@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-25T16:00:38.983794706-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-chef
+  version: 0.1.4
+  revision: e65d082227f2b3a33903bf41861cceb9c5a5a97c
+  digest: 0r_ecxB74L2sRgBr2SWnxUD5fecvVQn4xygDu6nqyJQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+bh48SqqV7GtSKHzXJLlweE0XYmWngmpf_jJr23Ox-Gr17t8dwM_Beeut83CRZ2oUkC7LS2e4Rjmi2xxfNWbdDg
+----- END CREV PROOF -----
+
