@@ -32,3 +32,20 @@ trust: medium
 S7qM5ZgFMRijhC2L7GRNXRxu9Ou6Fo6TnaNyswo_1owEU3hN5fUWpQ5R9bs4ViZGytg4ykDZLHKH_6nRB_FHCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-03-19T15:15:10.599664418-07:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: W-RXYmWCrsXJWinxMMdjCjR9ywGlH9srvMi0cmYL2rI
+    url: "https://gitlab.com/chrysn/auto-crev-proofs"
+trust: medium
+----- SIGN CREV PROOF -----
+HIsG73vAO8Rl_m0vkWu4MDnHzODTs6r_sWRyS-E2Lox1mucHIIOhZMrlAZ8LMvBIO7a51H9mfD-Voqt4rTdRCQ
+----- END CREV PROOF -----
+
