@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-15T00:17:24.881989450-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: dpc-pariter
+  version: 0.3.1
+  revision: bd79e3d7e384815926faa7f7150c9edb9605b0fa
+  digest: doJCjyVYxBAmUWzUr2LcXL09nBjjqVa26xbywskogXk
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  I'm the author and I AFAICT this is a decent code that works well.
+----- SIGN CREV PROOF -----
+Bsn7_q0EmE2sgP3P_ZUZU9QtCNzWuG5SWaYyIUgrT7cnvul17AqdbPE7cANaWs7fY_ziVgOijPDOzWbZPhuSBg
+----- END CREV PROOF -----
+
