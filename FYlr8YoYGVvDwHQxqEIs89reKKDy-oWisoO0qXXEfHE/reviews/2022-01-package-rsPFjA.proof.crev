@@ -44,3 +44,27 @@ review:
 bpuaXOqXgtkWbv23hPvX52NHihyaDLEtbLpu9xuAnfSlOjpFqo7_9Uhlr6fwI5YhjfvOULDOII_eo_g4fT0YDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T23:28:26.164196182-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crossbeam-utils
+  version: 0.8.6
+  revision: f9cec068fa94bced547a66289cd288dca58c2e83
+  digest: 8OdiZ5MMeWUw62nm-m2O0WCrQIywONvmwbBe_aZoaDI
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Very rudimentary review, of a otherwise well known and reputable package.
+----- SIGN CREV PROOF -----
+vC04FR7h4rNEhzW0v4x47enSS2QAU3rubJYbG9N5ZCmeSYLG22yUTbCuK50U6MmJ653LGeyespmJFZe6k6iFAg
+----- END CREV PROOF -----
+
