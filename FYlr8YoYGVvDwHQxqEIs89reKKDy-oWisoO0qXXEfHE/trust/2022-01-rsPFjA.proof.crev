@@ -59,3 +59,20 @@ override:
 Wv1zJlOOmMnPPW5fATymPKAyyKN87jjd7QCohHW27SqonvrcxZMmF6fHByG3bCLnDGCusZlgB9pPjGKKZCKIAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2022-01-21T19:29:32.543777219-08:00"
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: "https://github.com/dpc/crev-proofs"
+ids:
+  - id-type: crev
+    id: Mw3ReGwT2pB41AUQ12T7TcgvH5pq7I1gd8Iw_LLH4XQ
+    url: "https://github.com/bash/crev-proofs.git"
+trust: low
+----- SIGN CREV PROOF -----
+HqMCIL-QW0uTrPtwLVJ8SCxvSRellUAT8r15FFKmB2IwJbZnXrqz1R4875xJkIyergLR4dTN3CyoWUi_cY39Bw
+----- END CREV PROOF -----
+
