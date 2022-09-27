@@ -49,3 +49,21 @@ trust: none
 nDE-GtyMS_IJ4-dGrbKY3Q7Vw--w1e6jstvhb56tfWAylwwVcpK147xeCDop8z59yhW2Mv261pEN7pTD-pWKCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2022-09-27T15:47:43.959956532-07:00
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: https://github.com/dpc/crev-proofs
+ids:
+- id-type: crev
+  id: SX3ER-Ko3vO7yXcTfElMpSX4upFGgt9YYiruVFwGIwU
+- id-type: crev
+  id: QF7yX8aVkO-x5x3qP1VOfNiYqeiPEczCwnrrpxBdbRQ
+trust: none
+----- SIGN CREV PROOF -----
+G-ZuHcpPh9zHPOeQOI61x9jb7jl7yV-2wwJf6paVCQC1DummzkxS9cWm5gBsH8dAZkQMaOAHXXqgVLAgo5NfBg
+----- END CREV PROOF -----
+
