@@ -15,3 +15,20 @@ trust: medium
 l-qqI4xeCZo_WVdKBU4U8ZbTVdTr5FAs91inEjmhZUmAE3x7b7JZ2KbV8TxMOCEKJkkWuCBL33s8DALNwQFYCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2022-12-15T20:58:02.044758860-08:00
+from:
+  id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: https://github.com/dpc/crev-proofs
+ids:
+- id-type: crev
+  id: AOdw0m1s0DwuXFi3B2Juka2Wnx1LjJPD5qo3IfYTtlA
+  url: https://github.com/apoelstra/crev-proofs
+trust: medium
+----- SIGN CREV PROOF -----
+ZOk23-ueALs3df6nrRAgAQACPmEn-9-r4oczC_TK2gnM7K4aOlQlUbH3GL2Txfs37olw0euc5z5Vz6ZVzF9UDA
+----- END CREV PROOF -----
+
